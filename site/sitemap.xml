@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>/index.html</loc>
+     <lastmod>2017-12-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/2_sdk_init/index.html</loc>
+     <lastmod>2017-12-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/3_request_banner_programmatically/index.html</loc>
+     <lastmod>2017-12-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/4_banner_xml/index.html</loc>
+     <lastmod>2017-12-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/5_interstitial/index.html</loc>
+     <lastmod>2017-12-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/6_test_app/index.html</loc>
+     <lastmod>2017-12-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+</urlset>

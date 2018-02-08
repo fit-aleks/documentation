@@ -1,0 +1,134 @@
+{
+    "docs": [
+        {
+            "location": "/index.html", 
+            "text": "Prerequisites\n\n\n\n\nRunning Android Studio 1.0 or higher\n\n\nDeveloping for Android API level 19 or higher\n\n\n\n\n\n    \nDownload MPS SDK Examples\n    \n\n\n\n\n\nIn order to complete the Get Started guide, you need to have Android Studio installed on your development machine. If you don't already have it, see the Android Studio site for instructions on how to download everything you need to get up and running.\n\n\n1. Create a new project\n\n\nIn this step, you create a brand new project in Android Studio to use for our example. If you don't already have Studio running, go ahead and open it now.\n\n\n1.1 Start the new project wizard\n\n\n\n\nIf you see the above welcome screen, select Start a new Android Studio project. Otherwise, select File \n New Project from the menu.\n\n\n1.2 Name your project\n\n\n\n\nGive your project the desired Product Name. For the purposes of this example we will call it ReferenceTestApp.\nEnter your Organization Name and Identifier.\n\n\n1.3 Set the required SDK version\n\n\n\n\nOn the next screen, select \nPhone and Tablet\n for the form factor and a minimum SDK version of 19. That's the minimum version supported by the MPS SDK.\n\n\n1.4 Add your main activity\n\n\n\n\nWe're keeping it simple for this example, so on this screen select \nEmpty Activity\n.\n\n\n1.5 Name your activity\n\n\n\n\nOn this screen you have the option of choosing names for the app's activity and its related resources. Use the default names for this example, and just click the \nFinish\n button.\n\n\n1.6 Add SDK to Your Project\n\n\nCopy \nmps-sdk-${VERSION}.aar\n to your libs folder and add the following code to your project\u2019s \nbuild.gradle\n file:\n\n\nallprojects {\n    repositories {\n        jcenter()\n        flatDir {\n            dirs 'libs'\n        }\n    }\n}\n\n\n\n\nAdd the following line to your \ndependencies\n section in your app's \nbuild.gradle\n file:\n\n\ndependencies {\n    ...\n    compile(name:'mps-sdk-${VERSION}', ext:'aar')\n    ...\n}\n\n\n\n\nThen add the following dependency which is used by SDK:\n\n\ndependencies {\n    ...\n    compile 'com.google.android.gms:play-services-ads:11.0.4'\n    ...\n}\n\n\n\n\nNote: If you see a message about updating the Google Mobile Ads SDK, please contact the MPS SDK Support team prior to updating:\n\n\n\n\nEmail: \nmps-sdk-support@nbcuni.com\n\n\nDPIM Slack channel: \n#mps_sdk_support\n\n\n\n\n\n#download > a\n{\n    background-color: #2980b9;\n    color: #fff;\n    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);  \n    border: 0;\n    border-radius: 2px;\n    cursor: pointer;\n    display: inline-block;\n    height: 44px;\n    margin: 0;\n    min-width: 36px;\n    outline: 0;\n    padding: 8px;\n    padding-left: 16px;\n    padding-right: 16px;\n    vertical-align: middle;\n    text-align: center;\n    vertical-align: middle;\n}", 
+            "title": "Project Setup"
+        }, 
+        {
+            "location": "/index.html#prerequisites", 
+            "text": "Running Android Studio 1.0 or higher  Developing for Android API level 19 or higher   \n     Download MPS SDK Examples\n       In order to complete the Get Started guide, you need to have Android Studio installed on your development machine. If you don't already have it, see the Android Studio site for instructions on how to download everything you need to get up and running.", 
+            "title": "Prerequisites"
+        }, 
+        {
+            "location": "/index.html#1-create-a-new-project", 
+            "text": "In this step, you create a brand new project in Android Studio to use for our example. If you don't already have Studio running, go ahead and open it now.", 
+            "title": "1. Create a new project"
+        }, 
+        {
+            "location": "/index.html#11-start-the-new-project-wizard", 
+            "text": "If you see the above welcome screen, select Start a new Android Studio project. Otherwise, select File   New Project from the menu.", 
+            "title": "1.1 Start the new project wizard"
+        }, 
+        {
+            "location": "/index.html#12-name-your-project", 
+            "text": "Give your project the desired Product Name. For the purposes of this example we will call it ReferenceTestApp.\nEnter your Organization Name and Identifier.", 
+            "title": "1.2 Name your project"
+        }, 
+        {
+            "location": "/index.html#13-set-the-required-sdk-version", 
+            "text": "On the next screen, select  Phone and Tablet  for the form factor and a minimum SDK version of 19. That's the minimum version supported by the MPS SDK.", 
+            "title": "1.3 Set the required SDK version"
+        }, 
+        {
+            "location": "/index.html#14-add-your-main-activity", 
+            "text": "We're keeping it simple for this example, so on this screen select  Empty Activity .", 
+            "title": "1.4 Add your main activity"
+        }, 
+        {
+            "location": "/index.html#15-name-your-activity", 
+            "text": "On this screen you have the option of choosing names for the app's activity and its related resources. Use the default names for this example, and just click the  Finish  button.", 
+            "title": "1.5 Name your activity"
+        }, 
+        {
+            "location": "/index.html#16-add-sdk-to-your-project", 
+            "text": "Copy  mps-sdk-${VERSION}.aar  to your libs folder and add the following code to your project\u2019s  build.gradle  file:  allprojects {\n    repositories {\n        jcenter()\n        flatDir {\n            dirs 'libs'\n        }\n    }\n}  Add the following line to your  dependencies  section in your app's  build.gradle  file:  dependencies {\n    ...\n    compile(name:'mps-sdk-${VERSION}', ext:'aar')\n    ...\n}  Then add the following dependency which is used by SDK:  dependencies {\n    ...\n    compile 'com.google.android.gms:play-services-ads:11.0.4'\n    ...\n}  Note: If you see a message about updating the Google Mobile Ads SDK, please contact the MPS SDK Support team prior to updating:   Email:  mps-sdk-support@nbcuni.com  DPIM Slack channel:  #mps_sdk_support   \n#download > a\n{\n    background-color: #2980b9;\n    color: #fff;\n    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);  \n    border: 0;\n    border-radius: 2px;\n    cursor: pointer;\n    display: inline-block;\n    height: 44px;\n    margin: 0;\n    min-width: 36px;\n    outline: 0;\n    padding: 8px;\n    padding-left: 16px;\n    padding-right: 16px;\n    vertical-align: middle;\n    text-align: center;\n    vertical-align: middle;\n}", 
+            "title": "1.6 Add SDK to Your Project"
+        }, 
+        {
+            "location": "/2_sdk_init/index.html", 
+            "text": "Initiate the SDK\n\n\nYou can now create an instance of MPS with the appropriate host URL and site by initializing the library. You can also specify the log level for this instance. Refer to MPSSDKLogLevel in the documentation for more details.\n\n\nBefore start using the SDK it should be created with the following method call. Non-null instance of context should be passed to initialize cache folders in app internal folder.\n\n\nYou can also set test mode. When this mode is set to true all MPS requests will pass additional field to indicate the test mode is activated.\n\n\nURL mpsUrl;\ntry {\n    mpsUrl = new URL(\nhttps://mps.nbcuni.com\n);\n} catch (MalformedURLException e) {\n    Log.e(LOG_TAG, e.getLocalizedMessage(), e);\n    return;\n}\n\nboolean testMode = false;\n\nfinal MPS mps = MPS.init(context, mpsUrl, \ntest-sdk\n, MPSSDKLogLevel.DEBUG, testMode);\n\n\n\n\nThe last parameter can be one of the @MPSSDKLogLevel.LogLevel and defines the number of logs which will be printed by the SDK\n\n\nRequest an MPSPage Object\n\n\nThe MPS library operates with the concept of an MPSPage, which is similar to one web page. You will use this MPSPage object to request ads.\n\n\nTo achieve this we create an instance of MPSPageParameters which facilitates building the request that will be sent to MPS. The list of all configurable properties are presented in the library documentation.\n\n\nFor example:\n\n\nfinal MPSPageParameters mpp = new MPSPageParameters(this, \nsome_path\n)\n    .setCat(\nsomeCatValue\n)\n    .addCag(\nsomeKey\n, \nvalue\n);\nfinal MpsPage page = mps.requestPageObject(mpp);\n\n\n\n\nNext we will work on requesting banner and interstital ads, and adding them to the view hierarchy.", 
+            "title": "SDK Initialization"
+        }, 
+        {
+            "location": "/2_sdk_init/index.html#initiate-the-sdk", 
+            "text": "You can now create an instance of MPS with the appropriate host URL and site by initializing the library. You can also specify the log level for this instance. Refer to MPSSDKLogLevel in the documentation for more details.  Before start using the SDK it should be created with the following method call. Non-null instance of context should be passed to initialize cache folders in app internal folder.  You can also set test mode. When this mode is set to true all MPS requests will pass additional field to indicate the test mode is activated.  URL mpsUrl;\ntry {\n    mpsUrl = new URL( https://mps.nbcuni.com );\n} catch (MalformedURLException e) {\n    Log.e(LOG_TAG, e.getLocalizedMessage(), e);\n    return;\n}\n\nboolean testMode = false;\n\nfinal MPS mps = MPS.init(context, mpsUrl,  test-sdk , MPSSDKLogLevel.DEBUG, testMode);  The last parameter can be one of the @MPSSDKLogLevel.LogLevel and defines the number of logs which will be printed by the SDK", 
+            "title": "Initiate the SDK"
+        }, 
+        {
+            "location": "/2_sdk_init/index.html#request-an-mpspage-object", 
+            "text": "The MPS library operates with the concept of an MPSPage, which is similar to one web page. You will use this MPSPage object to request ads.  To achieve this we create an instance of MPSPageParameters which facilitates building the request that will be sent to MPS. The list of all configurable properties are presented in the library documentation.  For example:  final MPSPageParameters mpp = new MPSPageParameters(this,  some_path )\n    .setCat( someCatValue )\n    .addCag( someKey ,  value );\nfinal MpsPage page = mps.requestPageObject(mpp);  Next we will work on requesting banner and interstital ads, and adding them to the view hierarchy.", 
+            "title": "Request an MPSPage Object"
+        }, 
+        {
+            "location": "/3_request_banner_programmatically/index.html", 
+            "text": "In addition to requesting banner ads added via xml, you can also request a banner ad and add it to the view hierarchy programatically.\n\n\nLet's use simple \nFrameLayout\n as a container for a banner ad you wish to load. This \nFrameLayout\n can be described in xml file like this:\n\n\nFrameLayout android:id=\n@+id/frame\n\n    android:layout_width=\nmatch_parent\n\n    android:layout_height=\nwrap_content\n/\n\n\n\n\n\nAdd the following code to your java class corresponding this xml layout:\n\n\nFrameLayout container = (FrameLayout) findViewById(R.id.frame);\npage.getBannerAd(\ntestbanner\n, container, new MpsAdListener() {\n\n    @Override\n    public void onAdFailedToLoad(@NonNull MPSError mpsError) {\n        super.onAdFailedToLoad(mpsError);\n    }\n\n});\n\n\n\n\nAlso you can pass additional ad targeting as second parameter to \ngetBannerAd\n function:\n\n\nFrameLayout container = (FrameLayout) findViewById(R.id.frame);\nMap\nString, String\n additionalTargeting = new HashMap\n();\nadditionalTargeting.put(\nkey\n, \nvalue\n);\npage.getBannerAd(\ntestbanner\n, additionalTargeting, container, new MpsAdListener() {\n\n    @Override\n    public void onAdFailedToLoad(@NonNull MPSError mpsError) {\n        super.onAdFailedToLoad(mpsError);\n    }\n\n});\n\n\n\n\nResult\n\n\nCongratulations, you\u2019ve successfully made your banner ad request programatically!", 
+            "title": "Request Banner Programmatically"
+        }, 
+        {
+            "location": "/3_request_banner_programmatically/index.html#result", 
+            "text": "Congratulations, you\u2019ve successfully made your banner ad request programatically!", 
+            "title": "Result"
+        }, 
+        {
+            "location": "/4_banner_xml/index.html", 
+            "text": "The second way to display banner ad is to add its view to your view hierarchy. To do this just add MpsBannerAdView to your xml layout file in a way like this:\n\n\ncom.nbcuni.mps.widget.MpsBannerAdView\n        android:id=\n@+id/mps_ad\n\n        android:layout_width=\nmatch_parent\n\n        android:layout_height=\nwrap_content\n/\n\n\n\n\n\nInstantiate an object of this view in a way of your app using standard \nfindViewById\n, \nbutterknife\n, \ndatabinding\n or anything else. For example:\n\n\nMpsBannerAdView mpsAdView = (MpsBannerAdView) findViewById(R.id.mps_ad);\n\n\n\n\nAfter you have an object of the view just add the following code to load an ad into the banner view:\n\n\nmpsBannerAdView.displayBannerAd(\ntestbox\n, page, new MPSBannerAdListener() {\n    @Override\n    public void onAdLoaded(@NonNull MPSBannerAdView bannerAdView) {\n        super.onAdLoaded(bannerAdView);\n    }\n});\n\n\n\n\nAlso you can pass additional ad targeting as third parameter to \ndisplayBannerAd\n function:\n\n\nMap\nString, String\n additionalTargeting = new HashMap\n();\nadditionalTargeting.put(\nkey\n, \nvalue\n);\nmpsBannerAdView.displayBannerAd(\ntestbox\n, page, additionalTargeting, new MPSBannerAdListener() {\n    @Override\n    public void onAdLoaded(@NonNull MPSBannerAdView bannerAdView) {\n        super.onAdLoaded(bannerAdView);\n    }\n});\n\n\n\n\nResult\n\n\nThis image shows the displayed banner ad.", 
+            "title": "Request Banner with XML"
+        }, 
+        {
+            "location": "/4_banner_xml/index.html#result", 
+            "text": "This image shows the displayed banner ad.", 
+            "title": "Result"
+        }, 
+        {
+            "location": "/5_interstitial/index.html", 
+            "text": "You can also display interstitial ads to your MPSPage, very similarly to the way you added a banner ad.\n\n\nYou will continue expanding the MPSPage instance that you created earlier. To request an interstitial ad we add the following code to the java file.\n\n\npage.getInterstitialAd(\ntestinterstitial\n, context, new MPSInterstitialAdListener() {\n    @Override\n    public void onAdLoaded(@NonNull MPSInterstitialAd mpsInterstitialAd) {\n        super.onAdLoaded(mpsInterstitialAd);\n        interstitialAd = mpsInterstitialAd;\n        mpsInterstitialAd.present();\n    }\n});\n\n\n\n\nAlso you can pass additional ad targeting as second parameter to \ngetInterstitialAd\n function:\n\n\nMap\nString, String\n additionalTargeting = new HashMap\n();\nadditionalTargeting.put(\nkey\n, \nvalue\n);\npage.getInterstitialAd(\ntestinterstitial\n, additionalTargeting, context, new MPSInterstitialAdListener() {\n    @Override\n    public void onAdLoaded(@NonNull MPSInterstitialAd mpsInterstitialAd) {\n        super.onAdLoaded(mpsInterstitialAd);\n        interstitialAd = mpsInterstitialAd;\n        mpsInterstitialAd.present();\n    }\n});\n\n\n\n\nBuild and run the application.\n\n\nResult\n\n\nThis image shows the displayed banner ad.", 
+            "title": "Request Interstitial Ad"
+        }, 
+        {
+            "location": "/5_interstitial/index.html#result", 
+            "text": "This image shows the displayed banner ad.", 
+            "title": "Result"
+        }, 
+        {
+            "location": "/6_test_app/index.html", 
+            "text": "Test App Installation\n\n\nYou can install the TestApp using the HockeyApp application.\n\n\nHockeyApp test application\n\n\nHow to install test app from HockeyApp\n\n\nAfter you logged in the HockeyApp you will see the apps.\n\n\n\n\nClick on \u2018Install\u2019\n\n\n\n\nTestApp Usage\n\n\nYou can use the MPS SDK TestApp to confirm that the SDK is operating correctly. This can be useful for verifying the functionality of your mobile app.\n\n\nMain page\n\n\nSet your parameters for the ads you want to view in the TestApp.\n\n\nTap the \nMake MPS Request\n button to initialize the session.\n\n\nTap the \nDisplay Banner Ad\n button and \nDisplay Interstitial Ad\n button to view the ads that match your test parameters.\n\n\nSandbox page\n\n\nTap the \nScreens\n button for the ad you want to review.\n\n\nUse the \nInterstitial\n toggle to display interstitial ads instead of banner ads.\n\n\nTap the \nOpen Web View\n button to view the ad in a web view.\n\n\nSettings page\n\n\nThe \nMPS Site Configurations\n section displays the configuration values that were defined in MPS.\n\n\nThe \nSDK Versions\n section displays the MPS SDK version and the Google Mobile Ad SDK version that are built into this version of the TestApp.", 
+            "title": "Test App & Installation"
+        }, 
+        {
+            "location": "/6_test_app/index.html#test-app-installation", 
+            "text": "You can install the TestApp using the HockeyApp application.", 
+            "title": "Test App Installation"
+        }, 
+        {
+            "location": "/6_test_app/index.html#hockeyapp-test-application", 
+            "text": "", 
+            "title": "HockeyApp test application"
+        }, 
+        {
+            "location": "/6_test_app/index.html#how-to-install-test-app-from-hockeyapp", 
+            "text": "After you logged in the HockeyApp you will see the apps.   Click on \u2018Install\u2019", 
+            "title": "How to install test app from HockeyApp"
+        }, 
+        {
+            "location": "/6_test_app/index.html#testapp-usage", 
+            "text": "You can use the MPS SDK TestApp to confirm that the SDK is operating correctly. This can be useful for verifying the functionality of your mobile app.", 
+            "title": "TestApp Usage"
+        }, 
+        {
+            "location": "/6_test_app/index.html#main-page", 
+            "text": "Set your parameters for the ads you want to view in the TestApp.  Tap the  Make MPS Request  button to initialize the session.  Tap the  Display Banner Ad  button and  Display Interstitial Ad  button to view the ads that match your test parameters.", 
+            "title": "Main page"
+        }, 
+        {
+            "location": "/6_test_app/index.html#sandbox-page", 
+            "text": "Tap the  Screens  button for the ad you want to review.  Use the  Interstitial  toggle to display interstitial ads instead of banner ads.  Tap the  Open Web View  button to view the ad in a web view.", 
+            "title": "Sandbox page"
+        }, 
+        {
+            "location": "/6_test_app/index.html#settings-page", 
+            "text": "The  MPS Site Configurations  section displays the configuration values that were defined in MPS.  The  SDK Versions  section displays the MPS SDK version and the Google Mobile Ad SDK version that are built into this version of the TestApp.", 
+            "title": "Settings page"
+        }
+    ]
+}
