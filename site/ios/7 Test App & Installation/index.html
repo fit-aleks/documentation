@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Test App & Installation - MPS Developer's Guide</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Test App & Installation";
+    var mkdocs_page_input_path = "ios/7 Test App & Installation.md";
+    var mkdocs_page_url = "/ios/7 Test App & Installation/index.html";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../../index.html" class="icon icon-home"> MPS Developer's Guide</a>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../index.html">Main Page</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Android</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../android/index.html">Project Setup</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../android/2_sdk_init/index.html">SDK Initialization</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../android/3_request_banner_programmatically/index.html">Request Banner Programmatically</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../android/4_banner_xml/index.html">Request Banner with XML</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../android/5_interstitial/index.html">Request Interstitial Ad</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../android/6_test_app/index.html">Test App & Installation</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../android/javadocs/index.html">Javadoc</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">iOS</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../1 Project setup/index.html">Project Setup</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../2 SDK Initialization/index.html">SDK Initialization</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../3 Request Banner Programmatically/index.html">Request Banner Programmatically</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../4 Request Banner with Storyboard/index.html">Request Banner with Storyboard</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../5 Request Interstitial Ad/index.html">Request Interstitial Ad</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../6 Additional Functionality/index.html">Additional Functionality</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="index.html">Test App & Installation</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#mps-sdk-test-app">MPS SDK Test App</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#61-testapp-installation">6.1 TestApp Installation</a></li>
+        
+            <li><a class="toctree-l4" href="#hockeyapp-test-application">HockeyApp test application</a></li>
+        
+            <li><a class="toctree-l4" href="#62-testapp-usage">6.2 TestApp Usage</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">MPS Developer's Guide</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../index.html">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>iOS &raquo;</li>
+        
+      
+    
+    <li>Test App & Installation</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="mps-sdk-test-app">MPS SDK Test App</h1>
+<h2 id="61-testapp-installation">6.1 TestApp Installation</h2>
+<p>You can install the TestApp using the HockeyApp application. </p>
+<h2 id="hockeyapp-test-application">HockeyApp test application</h2>
+<h3 id="how-to-install-test-app-from-hockeyapp">How to install test app from HockeyApp</h3>
+<p>After you logged in the HockeyApp you will see the apps.</p>
+<p><img alt="Result" src="../../pics/hockey/hck_01.png" /></p>
+<p>Click on 'Install' </p>
+<p><img alt="Result" src="../../pics/hockey/hck_02.png" /></p>
+<p>If you install it first time - you'll see this notification.</p>
+<p><img alt="Result" src="../../pics/hockey/hck_03.png" /></p>
+<p>To remove this notification go to 'Settings-&gt;General'.
+Find 'Profiles &amp; Device Managament' and click on it.</p>
+<p><img alt="Result" src="../../pics/hockey/hck_04.jpg" /></p>
+<p>Choose 'NBCUniversal Media, LLC'.</p>
+<p><img alt="Result" src="../../pics/hockey/hck_05.jpg" /></p>
+<p>Click 'Trust'<br />
+You've installed the MPS SDK TestApp.</p>
+<p><img alt="Result" src="../../pics/hockey/hck_06.png" /></p>
+<h2 id="62-testapp-usage">6.2 TestApp Usage</h2>
+<p>You can use the MPS SDK <strong>TestApp</strong> to confirm that the SDK is operating correctly. This can be useful for verifying the functionality of your mobile app.</p>
+<h3 id="main-page">Main page</h3>
+<p>Set your parameters for the ads you want to view in the TestApp.</p>
+<p>Tap the <strong>Make MPS Request</strong> button to initialize the session.</p>
+<p>Tap the <strong>Display Banner Ad</strong> button and <strong>Display Interstitial Ad</strong> button to view the ads that match your test parameters.</p>
+<h3 id="sandbox-page">Sandbox page</h3>
+<p>Tap the <strong>Screens</strong> button for the ad you want to review.</p>
+<p>Use the <strong>Interstitial</strong> toggle to display interstitial ads instead of banner ads.</p>
+<p>Tap the <strong>Open Web View</strong> button to view the ad in a web view.</p>
+<h3 id="settings-page">Settings page</h3>
+<p>The <strong>MPS Site Configurations</strong> section displays the configuration values that were defined in MPS.</p>
+<p>The <strong>SDK Versions</strong>  section displays the MPS SDK version and the Google Mobile Ad SDK version that are built into this version of the TestApp. </p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../6 Additional Functionality/index.html" class="btn btn-neutral" title="Additional Functionality"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../6 Additional Functionality/index.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/require.js"></script>
+      <script src="../../search/search.js"></script>
+
+</body>
+</html>

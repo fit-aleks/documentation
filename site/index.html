@@ -8,7 +8,7 @@
   <meta name="description" content="None">
   
   <link rel="shortcut icon" href="./img/favicon.ico">
-  <title>Project Setup - MPS Developer's Guide</title>
+  <title>Main Page - MPS Developer's Guide</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="./css/theme.css" type="text/css" />
@@ -17,7 +17,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Project Setup";
+    var mkdocs_page_name = "Main Page";
     var mkdocs_page_input_path = "index.md";
     var mkdocs_page_url = "/index.html";
   </script>
@@ -44,28 +44,10 @@
           
             <li class="toctree-l1 current">
 		
-    <a class="current" href="index.html">Project Setup</a>
+    <a class="current" href="index.html">Main Page</a>
     <ul class="subnav">
             
-    <li class="toctree-l2"><a href="#prerequisites">Prerequisites</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l3" href="#1-create-a-new-project">1. Create a new project</a></li>
-        
-            <li><a class="toctree-l3" href="#11-start-the-new-project-wizard">1.1 Start the new project wizard</a></li>
-        
-            <li><a class="toctree-l3" href="#12-name-your-project">1.2 Name your project</a></li>
-        
-            <li><a class="toctree-l3" href="#13-set-the-required-sdk-version">1.3 Set the required SDK version</a></li>
-        
-            <li><a class="toctree-l3" href="#14-add-your-main-activity">1.4 Add your main activity</a></li>
-        
-            <li><a class="toctree-l3" href="#15-name-your-activity">1.5 Name your activity</a></li>
-        
-            <li><a class="toctree-l3" href="#16-add-sdk-to-your-project">1.6 Add SDK to Your Project</a></li>
-        
-        </ul>
+    <li class="toctree-l2"><a href="#some-general-info-about-mps">Some general info about MPS</a></li>
     
 
     </ul>
@@ -73,27 +55,72 @@
           
             <li class="toctree-l1">
 		
-    <a class="" href="2_sdk_init/index.html">SDK Initialization</a>
+    <span class="caption-text">Android</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="android/index.html">Project Setup</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="android/2_sdk_init/index.html">SDK Initialization</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="android/3_request_banner_programmatically/index.html">Request Banner Programmatically</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="android/4_banner_xml/index.html">Request Banner with XML</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="android/5_interstitial/index.html">Request Interstitial Ad</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="android/6_test_app/index.html">Test App & Installation</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="android/javadocs/index.html">Javadoc</a>
+                </li>
+    </ul>
 	    </li>
           
             <li class="toctree-l1">
 		
-    <a class="" href="3_request_banner_programmatically/index.html">Request Banner Programmatically</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="4_banner_xml/index.html">Request Banner with XML</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="5_interstitial/index.html">Request Interstitial Ad</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="6_test_app/index.html">Test App & Installation</a>
+    <span class="caption-text">iOS</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="ios/1 Project setup/index.html">Project Setup</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="ios/2 SDK Initialization/index.html">SDK Initialization</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="ios/3 Request Banner Programmatically/index.html">Request Banner Programmatically</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="ios/4 Request Banner with Storyboard/index.html">Request Banner with Storyboard</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="ios/5 Request Interstitial Ad/index.html">Request Interstitial Ad</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="ios/6 Additional Functionality/index.html">Additional Functionality</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="ios/7 Test App & Installation/index.html">Test App & Installation</a>
+                </li>
+    </ul>
 	    </li>
           
         </ul>
@@ -118,7 +145,7 @@
     
       
     
-    <li>Project Setup</li>
+    <li>Main Page</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -128,90 +155,7 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="prerequisites">Prerequisites</h2>
-<ul>
-<li>Running Android Studio 1.0 or higher</li>
-<li>Developing for Android API level 19 or higher</li>
-</ul>
-<p id="download">
-    <a  href="https://github.com/NBCUOTS/mobile_mps_sdk_android_examples/releases/tag/release-1.0.0">Download MPS SDK Examples
-    </a>
-</p>
-
-<p>In order to complete the Get Started guide, you need to have Android Studio installed on your development machine. If you don't already have it, see the Android Studio site for instructions on how to download everything you need to get up and running.</p>
-<h3 id="1-create-a-new-project">1. Create a new project</h3>
-<p>In this step, you create a brand new project in Android Studio to use for our example. If you don't already have Studio running, go ahead and open it now.</p>
-<h3 id="11-start-the-new-project-wizard">1.1 Start the new project wizard</h3>
-<p><img alt="Create New Project" src="./images/1_new_project.png" /></p>
-<p>If you see the above welcome screen, select Start a new Android Studio project. Otherwise, select File &gt; New Project from the menu.</p>
-<h3 id="12-name-your-project">1.2 Name your project</h3>
-<p><img alt="Project Naming" src="./images/2_naming.png" /></p>
-<p>Give your project the desired Product Name. For the purposes of this example we will call it ReferenceTestApp.
-Enter your Organization Name and Identifier.</p>
-<h3 id="13-set-the-required-sdk-version">1.3 Set the required SDK version</h3>
-<p><img alt="Selecting SDK version" src="./images/3_min_sdk_version.png" /></p>
-<p>On the next screen, select <strong>Phone and Tablet</strong> for the form factor and a minimum SDK version of 19. That's the minimum version supported by the MPS SDK.</p>
-<h3 id="14-add-your-main-activity">1.4 Add your main activity</h3>
-<p><img alt="Selecting Activity Template" src="./images/4_empty_activity.png" /></p>
-<p>We're keeping it simple for this example, so on this screen select <strong>Empty Activity</strong>.</p>
-<h3 id="15-name-your-activity">1.5 Name your activity</h3>
-<p><img alt="Activity Naming" src="./images/5_activity_naming.png" /></p>
-<p>On this screen you have the option of choosing names for the app's activity and its related resources. Use the default names for this example, and just click the <strong>Finish</strong> button.</p>
-<h3 id="16-add-sdk-to-your-project">1.6 Add SDK to Your Project</h3>
-<p>Copy <strong>mps-sdk-${VERSION}.aar</strong> to your libs folder and add the following code to your project’s <strong>build.gradle</strong> file:</p>
-<pre><code class="gradle">allprojects {
-    repositories {
-        jcenter()
-        flatDir {
-            dirs 'libs'
-        }
-    }
-}
-</code></pre>
-
-<p>Add the following line to your <strong>dependencies</strong> section in your app's <strong>build.gradle</strong> file:</p>
-<pre><code>dependencies {
-    ...
-    compile(name:'mps-sdk-${VERSION}', ext:'aar')
-    ...
-}
-</code></pre>
-
-<p>Then add the following dependency which is used by SDK:</p>
-<pre><code>dependencies {
-    ...
-    compile 'com.google.android.gms:play-services-ads:11.0.4'
-    ...
-}
-</code></pre>
-
-<p><em>Note: If you see a message about updating the Google Mobile Ads SDK, please contact the MPS SDK Support team prior to updating:</em></p>
-<ul>
-<li><em>Email: <a href="mailto:mps-sdk-support@nbcuni.com">mps-sdk-support@nbcuni.com</a></em></li>
-<li><em>DPIM Slack channel: <a href="https://dpim.slack.com/messages/G4QJLA56Z">#mps_sdk_support</a></em></li>
-</ul>
-<style>
-#download > a
-{
-    background-color: #2980b9;
-    color: #fff;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);  
-    border: 0;
-    border-radius: 2px;
-    cursor: pointer;
-    display: inline-block;
-    height: 44px;
-    margin: 0;
-    min-width: 36px;
-    outline: 0;
-    padding: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
-    vertical-align: middle;
-    text-align: center;
-    vertical-align: middle;
-}
-</style>
+                <h2 id="some-general-info-about-mps">Some general info about MPS</h2>
               
             </div>
           </div>
@@ -219,7 +163,7 @@ Enter your Organization Name and Identifier.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="2_sdk_init/index.html" class="btn btn-neutral float-right" title="SDK Initialization">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="android/index.html" class="btn btn-neutral float-right" title="Project Setup">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
     </div>
@@ -247,16 +191,18 @@ Enter your Organization Name and Identifier.</p>
       
       
       
-        <span style="margin-left: 15px"><a href="2_sdk_init/index.html" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="android/index.html" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
     <script src="./js/theme.js"></script>
+      <script src="./search/require.js"></script>
+      <script src="./search/search.js"></script>
 
 </body>
 </html>
 
 <!--
-MkDocs version : 0.16.2
-Build Date UTC : 2017-12-19 19:03:08
+MkDocs version : 0.17.2
+Build Date UTC : 2018-02-08 21:15:50
 -->

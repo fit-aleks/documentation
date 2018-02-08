@@ -1,0 +1,37 @@
+# Requesting Banner Ads Programmatically
+
+In addition to requesting banner ads via a storyboard, you can also request a banner ad and add it to the view hierarchy *programatically*.  
+
+Building on where you left off from creating a MPS instance and requesting a page object, you can just add the following code to **ViewController.swift**.
+
+```swift
+    page.getBannerAd(adUnit: "testbox", rootViewController: self, success: { [weak self] (ad) in
+        if let sSelf = self {
+            sSelf.view.addSubview(ad)
+        }
+    }) { (error) in
+        print(error.localizedDescription)
+    }
+
+```
+
+Or, if you're following along in Objective-C add the following code to **ViewController.m**.
+
+```objc
+    __weak ViewController *wself = self;
+    NSDictionary *targeting = [NSDictionary dictionaryWithObjectsAndKeys: "targetingValue", "targetingKeys", nil];
+    [page getBannerAdWithAdUnit:"testbox" additionalTargeting:targeting rootViewController:self success:^(MPSBannerAdView * _Nonnull adView) {
+        [wself.view addSubview:adView];
+    } failure:^(NSError * _Nonnull error) {
+        NSLog(error);
+    }];
+    
+```
+
+Build and run the application.  
+You will see the following result in the simulator. 
+
+## Result
+Congratulations, you've successfully made your banner ad request programatically! 
+
+![Result](/pics/gsg_banner_result.png)

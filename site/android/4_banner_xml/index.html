@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Request Banner with XML - MPS Developer's Guide</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Request Banner with XML";
+    var mkdocs_page_input_path = "android/4_banner_xml.md";
+    var mkdocs_page_url = "/android/4_banner_xml/index.html";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../../index.html" class="icon icon-home"> MPS Developer's Guide</a>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../index.html">Main Page</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Android</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../index.html">Project Setup</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../2_sdk_init/index.html">SDK Initialization</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../3_request_banner_programmatically/index.html">Request Banner Programmatically</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="index.html">Request Banner with XML</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#result">Result</a></li>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../5_interstitial/index.html">Request Interstitial Ad</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../6_test_app/index.html">Test App & Installation</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../javadocs/index.html">Javadoc</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">iOS</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../ios/1 Project setup/index.html">Project Setup</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../ios/2 SDK Initialization/index.html">SDK Initialization</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../ios/3 Request Banner Programmatically/index.html">Request Banner Programmatically</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../ios/4 Request Banner with Storyboard/index.html">Request Banner with Storyboard</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../ios/5 Request Interstitial Ad/index.html">Request Interstitial Ad</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../ios/6 Additional Functionality/index.html">Additional Functionality</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../ios/7 Test App & Installation/index.html">Test App & Installation</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">MPS Developer's Guide</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../index.html">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Android &raquo;</li>
+        
+      
+    
+    <li>Request Banner with XML</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p>The second way to display banner ad is to add its view to your view hierarchy. To do this just add MpsBannerAdView to your xml layout file in a way like this:</p>
+<pre><code class="xml">&lt;com.nbcuni.mps.MPSBannerAdView
+        android:id=&quot;@+id/mps_ad&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;/&gt;
+</code></pre>
+
+<p>Instantiate an object of this view in a way of your app using standard <em>findViewById</em>, <em>butterknife</em>, <em>databinding</em> or anything else. For example:</p>
+<pre><code class="java">MPSBannerAdView mpsAdView = findViewById(R.id.mps_ad);
+</code></pre>
+
+<p>After you have an object of the view just add the following code to load an ad into the banner view:</p>
+<pre><code class="java">mpsAdView.displayBannerAd(&quot;testbox&quot;, page, new MPSBannerAdListener() {
+    @Override
+    public void onAdLoaded(@NonNull MPSBannerAdView bannerAdView) {
+        super.onAdLoaded(bannerAdView);
+    }
+});
+</code></pre>
+
+<p>Also you can pass additional ad targeting as third parameter to <code>displayBannerAd</code> function:</p>
+<pre><code class="java">Map&lt;String, String&gt; additionalTargeting = new HashMap&lt;&gt;();
+additionalTargeting.put(&quot;key&quot;, &quot;value&quot;);
+mpsBannerAdView.displayBannerAd(&quot;testbox&quot;, page, additionalTargeting, new MPSBannerAdListener() {
+    @Override
+    public void onAdLoaded(@NonNull MPSBannerAdView bannerAdView) {
+        super.onAdLoaded(bannerAdView);
+    }
+});
+</code></pre>
+
+<h2 id="result">Result</h2>
+<p>This image shows the displayed banner ad.</p>
+<p><img alt="Banner Loaded Via XML" src="../../images/banner_xml.png" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../5_interstitial/index.html" class="btn btn-neutral float-right" title="Request Interstitial Ad">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../3_request_banner_programmatically/index.html" class="btn btn-neutral" title="Request Banner Programmatically"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../3_request_banner_programmatically/index.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../5_interstitial/index.html" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/require.js"></script>
+      <script src="../../search/search.js"></script>
+
+</body>
+</html>
