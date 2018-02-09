@@ -17,5 +17,6 @@ pages:
     - Request Interstitial Ad: 'ios/5 Request Interstitial Ad.md'
     - Additional Functionality: 'ios/6 Additional Functionality.md'
     - Test App & Installation: 'ios/7 Test App & Installation.md'
+    - Documentation: 'ios/8 Classes And Protocols.md'
 theme_dir: readthedocs
 use_directory_urls: false
