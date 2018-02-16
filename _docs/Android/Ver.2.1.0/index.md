@@ -1,6 +1,6 @@
 ---
 title: "MPS SDK VER 2.1.0"
-permalink: index.html
+permalink: ver_2.1.0_index.html
 sidebar: jekyllhowto
 type: homepage
 ---
