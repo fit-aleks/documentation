@@ -4,15 +4,11 @@ sidebarTitle: Generic
 
 folders:
 
-- title: Main page
-  jurl: /frontmatter.html
-  type: frontmatter
-  pdf: true
+- title: MPS SDK
+  
   folderitems:
-
-  - title: Title page
-    jurl: /main_page.html
-    pdf: true
+  - title: Getting Started
+    jurl: index.html
 
 - title: Android
 
