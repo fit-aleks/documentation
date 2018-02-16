@@ -10,11 +10,11 @@ You can install the TestApp using the HockeyApp application.
 
 After you logged in the HockeyApp you will see the apps.
 
-![HockeyApp List of all Apps](/images/hockeapp_list_of_apps.png)
+{% include image.html file="android/hockeapp_list_of_apps.png" caption="HockeyApp List of all Apps" %}
 
 Click on ‘Install’
 
-![HockeyApp Install](/images/hockeapp_install.png)
+{% include image.html file="android/hockeapp_install.png" caption="HockeyApp Install" %}
 
 ## TestApp Usage
 You can use the MPS SDK TestApp to confirm that the SDK is operating correctly. This can be useful for verifying the functionality of your mobile app.

@@ -28,26 +28,26 @@ If you see the above welcome screen, select Start a new Android Studio project. 
 
 ### 1.2 Name your project
 
-![Project Naming](/images/android/2_naming.png)
+{% include image.html file="android/2_naming.png" caption="Project Naming" %}
 
 Give your project the desired Product Name. For the purposes of this example we will call it ReferenceTestApp.
 Enter your Organization Name and Identifier.
 
 ### 1.3 Set the required SDK version
 
-![Selecting SDK version](/images/android/3_min_sdk_version.png)
+{% include image.html file="android/3_min_sdk_version.png" caption="Selecting SDK version" %}
 
 On the next screen, select **Phone and Tablet** for the form factor and a minimum SDK version of 19. That's the minimum version supported by the MPS SDK.
 
 ### 1.4 Add your main activity
 
-![Selecting Activity Template](/images/android/4_empty_activity.png)
+{% include image.html file="android/4_empty_activity.png" caption="Selecting Activity Template" %}
 
 We're keeping it simple for this example, so on this screen select **Empty Activity**.
 
 ### 1.5 Name your activity
 
-![Activity Naming](/images/android/5_activity_naming.png)
+{% include image.html file="android/5_activity_naming.png" caption="Activity Naming" %}
 
 On this screen you have the option of choosing names for the app's activity and its related resources. Use the default names for this example, and just click the **Finish** button.
 
