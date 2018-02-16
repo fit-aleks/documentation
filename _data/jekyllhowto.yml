@@ -1,0 +1,210 @@
+sidebarTitle: Generic
+
+## See the generic.yml file as an example of the allowed yaml format.
+
+folders:
+
+- title: Main page
+  jurl: /frontmatter.html
+  type: frontmatter
+  pdf: true
+  folderitems:
+
+  - title: Title page
+    jurl: /main_page.html
+    pdf: true
+
+- title: Android
+
+  folderitems:
+  - title: Some basic info
+    jurl: /android_base.html
+
+    subfolders:
+    - title: Versions
+      output: web
+      subfolderitems:
+
+      - title: Test
+        jurl: /android_versions.html
+
+        subsubfolders:
+        - title: Version 2.2.0
+          output: web
+          subsubfolderitems:
+
+          - title: Getting Started
+            jurl: /ver_2.2.0_index.html
+
+          - title: Initiate the SDK
+            jurl: /ver_2.2.0_2_sdk_init.html
+
+          - title: Request banner ad programmatically
+            jurl: /ver_2.2.0_3_request_banner_programmatically.html
+
+          - title: Request banner ad with XML
+            jurl: /ver_2.2.0_4_banner_xml.html
+
+          - title: Request interstitial ad
+            jurl: /ver_2.2.0/ver_2.2.0_5_interstitial.html
+
+          - title: Test App Installation
+            jurl: /ver_2.2.0_6_test_app.html
+
+          - title: Javadocs
+            jurl: /ver_2.2.0_javadocs.html
+        - title: Version 2.1.0
+          output: web
+          subsubfolderitems:
+
+          - title: Getting Started
+            jurl: /ver_2.1.0_index.html
+
+          - title: Initiate the SDK
+            jurl: /ver_2.1.0_2_sdk_init.html
+
+          - title: Request banner ad programmatically
+            jurl: /ver_2.1.0_3_request_banner_programmatically.html
+
+          - title: Request banner ad with XML
+            jurl: /ver_2.1.0_4_banner_xml.html
+
+          - title: Request interstitial ad
+            jurl: /ver_2.1.0/ver_2.1.0_5_interstitial.html
+
+          - title: Test App Installation
+            jurl: /ver_2.1.0_6_test_app.html
+
+          - title: Javadocs
+            jurl: /ver_2.1.0_javadocs.html
+
+        - title: Version 2.0.0
+          output: web
+          subsubfolderitems:
+
+          - title: Getting Started
+            jurl: /ver_2.0.0_index.html
+
+          - title: Initiate the SDK
+            jurl: /ver_2.0.0_2_sdk_init.html
+
+          - title: Request banner ad programmatically
+            jurl: /ver_2.0.0_3_request_banner_programmatically.html
+
+          - title: Request banner ad with XML
+            jurl: /ver_2.0.0_4_banner_xml.html
+
+          - title: Request interstitial ad
+            jurl: /ver_2.0.0_5_interstitial.html
+
+          - title: Test App Installation
+            jurl: /ver_2.0.0_6_test_app.html
+
+          - title: Javadocs
+            jurl: /ver_2.0.0_javadocs.html
+
+- title: iOS
+  pdf: true
+  jurl: /basic_ios.html
+
+  folderitems:
+  - title: Some basic info
+    jurl: /basic_ios.html
+    pdf: false
+
+    subfolders:
+    - title: Versions
+      output: web
+      subfolderitems:
+
+      - title: Test
+        output: web
+        jurl: /basic_ios.html
+
+        subsubfolders:
+        - title: Version 2.1.0
+          output: web
+          subsubfolderitems:
+
+          - title: Getting Started
+            jurl: /some_page.html
+            pdf: false
+
+          - title: 2_sdk_init
+            jurl: /2_sdk_init.html
+            pdf: false
+
+          - title: 3_request_banner_programmatically
+            jurl: /3_request_banner_programmatically.html
+            pdf: false
+
+          - title: 4_banner_xml
+            jurl: /4_banner_xml.html
+            pdf: false
+
+          - title: 5_interstitial
+            jurl: /5_interstitial.html
+            pdf: false
+            
+          - title: 6_test_app
+            jurl: /6_test_app.html
+            pdf: false
+
+          - title: Documentation
+            jurl: /ver_2.1.0_docs.html
+            pdf: false
+
+        - title: Version 2.0.0
+          output: web
+          subsubfolderitems:
+
+          - title: Getting Started
+            jurl: /some_page.html
+            pdf: false
+
+          - title: 2_sdk_init
+            jurl: /2_sdk_init.html
+            pdf: false
+
+          - title: 3_request_banner_programmatically
+            jurl: /3_request_banner_programmatically.html
+            pdf: false
+
+          - title: 4_banner_xml
+            jurl: /4_banner_xml.html
+            pdf: false
+
+          - title: 5_interstitial
+            jurl: /5_interstitial.html
+            pdf: false
+            
+          - title: 6_test_app
+            jurl: /6_test_app.html
+            pdf: false
+
+        - title: Version 1.1.0
+          output: web
+          subsubfolderitems:
+
+          - title: Getting Started
+            jurl: /some_page.html
+            pdf: false
+
+          - title: 2_sdk_init
+            jurl: /2_sdk_init.html
+            pdf: false
+
+          - title: 3_request_banner_programmatically
+            jurl: /3_request_banner_programmatically.html
+            pdf: false
+
+          - title: 4_banner_xml
+            jurl: /4_banner_xml.html
+            pdf: false
+
+          - title: 5_interstitial
+            jurl: /5_interstitial.html
+            pdf: false
+            
+          - title: 6_test_app
+            jurl: /6_test_a
