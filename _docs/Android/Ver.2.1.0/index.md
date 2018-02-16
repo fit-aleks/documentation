@@ -22,7 +22,7 @@ In this step, you create a brand new project in Android Studio to use for our ex
 
 ### 1.1 Start the new project wizard
 
-![Create New Project](/images/android/1_new_project.png)
+{% include image.html file="android/1_new_project.png" caption="Create New Project" %}
 
 If you see the above welcome screen, select Start a new Android Studio project. Otherwise, select File > New Project from the menu.
 
