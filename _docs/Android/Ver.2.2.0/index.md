@@ -22,13 +22,13 @@ In this step, you create a brand new project in Android Studio to use for our ex
 
 ### 1.1 Start the new project wizard
 
-![Create New Project](/images/android/1_new_project.png)
+![Create New Project](/images/1_new_project.png)
 
 If you see the above welcome screen, select Start a new Android Studio project. Otherwise, select File > New Project from the menu.
 
 ### 1.2 Name your project
 
-![Project Naming](/images/android/2_naming.png)
+![Project Naming](/images/2_naming.png)
 
 Give your project the desired Product Name. For the purposes of this example we will call it ReferenceTestApp.
 Enter your Organization Name and Identifier.
