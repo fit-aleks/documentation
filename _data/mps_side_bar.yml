@@ -117,37 +117,40 @@ folders:
         jurl: /ios_versions.html
 
         subsubfolders:
-        - title: Version 2.2.0
+        - title: Version 2.1.0
           output: web
           subsubfolderitems:
 
           - title: Project setup
-            jurl: /ios_ver_2.2.0_index.html
+            jurl: /ios_ver_2.1.0_project_setup.html
             pdf: false
 
           - title: Initialization
-            jurl: /ios_ver_2.2.0_initialization.html
+            jurl: /ios_ver_2.1.0_initialization.html
             pdf: false
 
           - title: Requesting Banner Ads Programmatically
-            jurl: /ios_ver_2.2.0_request_banner_programmatically.html
+            jurl: /ios_ver_2.1.0_requesting_banner_ad.html
             pdf: false
 
           - title: Requesting Banner Ads using a Storyboard
-            jurl: /ios_ver_2.2.0_request_banner_storyboard.html
+            jurl: /ios_ver_2.1.0_requesting_banner_ad2.html
             pdf: false
 
           - title: Requesting Interstitial Ads
-            jurl: /ios_ver_2.2.0_request_interstitial.html
+            jurl: /ios_ver_2.1.0_requesting_interstitial_ads.html
             pdf: false
             
           - title: Additional Functionality
-            jurl: /ios_ver_2.2.0_additional_functionality.html
+            jurl: /ios_ver_2.1.0_additional_functionality.html
             pdf: false
 
           - title: Test App
-            jurl: /ios_ver_2.2.0_mps_sdk_test_app.html
+            jurl: /ios_ver_2.1.0_mps_sdk_test_app.html
+          
+          - title: Sample App
+            jurl: /ios_ver_2.1.0_mps_sdk_sample_app.html
 
           - title: Documentation
-            jurl: /ios_ver_2.2.0_documentation.html
+            jurl: /ios_ver_2.1.0_documentation.html
             pdf: false
