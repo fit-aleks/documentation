@@ -27,11 +27,11 @@ If you install it first time - you'll see this notification.
 To remove this notification go to 'Settings->General'.
 Find 'Profiles & Device Managament' and click on it.
 
-{% include image.html file="ios/hockey/hck_04.png" caption="Result" %}
+{% include image.html file="ios/hockey/hck_04.jpg" caption="Result" %}
 
 Choose 'NBCUniversal Media, LLC'.
 
-{% include image.html file="ios/hockey/hck_05.png" caption="Result" %}
+{% include image.html file="ios/hockey/hck_05.jpg" caption="Result" %}
 
 Click 'Trust'  
 You've installed the MPS SDK TestApp.

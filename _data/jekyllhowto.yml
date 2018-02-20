@@ -119,89 +119,37 @@ folders:
         jurl: /basic_ios.html
 
         subsubfolders:
-        - title: Version 2.1.0
+        - title: Version 2.2.0
           output: web
           subsubfolderitems:
 
-          - title: Getting Started
-            jurl: /some_page.html
+          - title: Project setup
+            jurl: /ios_ver_2.2.0_index.html
             pdf: false
 
-          - title: 2_sdk_init
-            jurl: /2_sdk_init.html
+          - title: Initialization
+            jurl: /ios_ver_2.2.0_initialization.html
             pdf: false
 
-          - title: 3_request_banner_programmatically
-            jurl: /3_request_banner_programmatically.html
+          - title: Requesting Banner Ads Programmatically
+            jurl: /ios_ver_2.2.0_request_banner_programmatically.html
             pdf: false
 
-          - title: 4_banner_xml
-            jurl: /4_banner_xml.html
+          - title: Requesting Banner Ads using a Storyboard
+            jurl: /ios_ver_2.2.0_request_banner_storyboard.html
             pdf: false
 
-          - title: 5_interstitial
-            jurl: /5_interstitial.html
+          - title: Requesting Interstitial Ads
+            jurl: /ios_ver_2.2.0_request_interstitial.html
             pdf: false
             
-          - title: 6_test_app
-            jurl: /6_test_app.html
+          - title: Additional Functionality
+            jurl: /ios_ver_2.2.0_additional_functionality.html
             pdf: false
+
+          - title: Test App
+            jurl: /ios_ver_2.2.0_mps_sdk_test_app.html
 
           - title: Documentation
-            jurl: /ver_2.1.0_docs.html
+            jurl: /ios_ver_2.2.0_documentation.html
             pdf: false
-
-        - title: Version 2.0.0
-          output: web
-          subsubfolderitems:
-
-          - title: Getting Started
-            jurl: /some_page.html
-            pdf: false
-
-          - title: 2_sdk_init
-            jurl: /2_sdk_init.html
-            pdf: false
-
-          - title: 3_request_banner_programmatically
-            jurl: /3_request_banner_programmatically.html
-            pdf: false
-
-          - title: 4_banner_xml
-            jurl: /4_banner_xml.html
-            pdf: false
-
-          - title: 5_interstitial
-            jurl: /5_interstitial.html
-            pdf: false
-            
-          - title: 6_test_app
-            jurl: /6_test_app.html
-            pdf: false
-
-        - title: Version 1.1.0
-          output: web
-          subsubfolderitems:
-
-          - title: Getting Started
-            jurl: /some_page.html
-            pdf: false
-
-          - title: 2_sdk_init
-            jurl: /2_sdk_init.html
-            pdf: false
-
-          - title: 3_request_banner_programmatically
-            jurl: /3_request_banner_programmatically.html
-            pdf: false
-
-          - title: 4_banner_xml
-            jurl: /4_banner_xml.html
-            pdf: false
-
-          - title: 5_interstitial
-            jurl: /5_interstitial.html
-            pdf: false
-            
-          - title: 6_test_app
-            jurl: /6_test_a

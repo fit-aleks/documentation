@@ -5,4 +5,4 @@ sidebar: jekyllhowto
 ---
 Here you can find documentaiton regarding all public classes and protocols inside MPS SDK.
 
-<a  href="../Documentation/index.html">Documentation</a>
+<a  href="docs/ios/Ver.2.2.0/Documentation/index.html">Documentation</a>
