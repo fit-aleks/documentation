@@ -14,15 +14,15 @@ You can install the TestApp using the HockeyApp application.
 
 After you logged in the HockeyApp you will see the apps.
 
-{% include image.html file="ios/hockey/hck_01.png" caption="Result" %}
+{% include image.html file="ios/hockey/hck_01.PNG" caption="Result" %}
 
 Click on 'Install' 
 
-{% include image.html file="ios/hockey/hck_02.png" caption="Result" %}
+{% include image.html file="ios/hockey/hck_02.PNG" caption="Result" %}
 
 If you install it first time - you'll see this notification.
 
-{% include image.html file="ios/hockey/hck_03.png" caption="Result" %}
+{% include image.html file="ios/hockey/hck_03.PNG" caption="Result" %}
 
 To remove this notification go to 'Settings->General'.
 Find 'Profiles & Device Managament' and click on it.
@@ -36,7 +36,7 @@ Choose 'NBCUniversal Media, LLC'.
 Click 'Trust'  
 You've installed the MPS SDK TestApp.
 
-{% include image.html file="ios/hockey/hck_06.png" caption="Result" %}
+{% include image.html file="ios/hockey/hck_06.PNG" caption="Result" %}
 
 ## 6.2 TestApp Usage
 
