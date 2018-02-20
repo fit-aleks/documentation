@@ -1,7 +1,7 @@
 ---
 title: "Documentation"
 permalink: ios_ver_2.2.0_documentation.html
-sidebar: jekyllhowto
+sidebar: mps_side_bar
 ---
 Here you can find documentaiton regarding all public classes and protocols inside MPS SDK.
 

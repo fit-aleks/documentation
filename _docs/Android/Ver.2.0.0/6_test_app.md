@@ -1,7 +1,7 @@
 ---
 title: "Test App Installation"
 permalink: ver_2.0.0_6_test_app.html
-sidebar: jekyllhowto
+sidebar: mps_side_bar
 ---
 You can install the TestApp using the HockeyApp application.
 

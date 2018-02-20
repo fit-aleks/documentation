@@ -1,7 +1,7 @@
 ---
 title: "Request banner ad with XML"
 permalink: ver_2.1.0_4_banner_xml.html
-sidebar: jekyllhowto
+sidebar: mps_side_bar
 ---
 The second way to display banner ad is to add its view to your view hierarchy. To do this just add MpsBannerAdView to your xml layout file in a way like this:
 

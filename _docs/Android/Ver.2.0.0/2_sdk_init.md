@@ -1,7 +1,7 @@
 ---
 title: "Initiate the SDK"
 permalink: ver_2.0.0_2_sdk_init.html
-sidebar: jekyllhowto
+sidebar: mps_side_bar
 ---
 You can now create an instance of MPS with the appropriate host URL and site by initializing the library. You can also specify the log level for this instance. Refer to MPSSDKLogLevel in the documentation for more details.
 

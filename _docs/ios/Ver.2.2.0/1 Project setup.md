@@ -1,7 +1,7 @@
 ---
 title: "Project Setup"
 permalink: ios_ver_2.2.0_index.html
-sidebar: jekyllhowto
+sidebar: mps_side_bar
 ---
 
 ## Prerequisites

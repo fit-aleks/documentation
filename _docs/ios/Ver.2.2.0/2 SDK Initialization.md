@@ -1,7 +1,7 @@
 ---
 title: "Initialization"
 permalink: ios_ver_2.2.0_initialization.html
-sidebar: jekyllhowto
+sidebar: mps_side_bar
 ---
 
 You are now ready to create an MPS instance for requesting banner and interstitial ads.  

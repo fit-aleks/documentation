@@ -1,7 +1,7 @@
 ---
 title: "Request banner ad programmatically"
 permalink: ver_2.1.0_3_request_banner_programmatically.html
-sidebar: jekyllhowto
+sidebar: mps_side_bar
 ---
 In addition to requesting banner ads added via xml, you can also request a banner ad and add it to the view hierarchy programatically.
 

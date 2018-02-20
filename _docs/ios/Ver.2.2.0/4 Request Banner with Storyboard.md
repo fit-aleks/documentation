@@ -1,7 +1,7 @@
 ---
 title: "Requesting Banner Ads using a Storyboard"
 permalink: ios_ver_2.2.0_request_banner_storyboard.html
-sidebar: jekyllhowto
+sidebar: mps_side_bar
 ---
 
 Now that you have setup your project with the SDK, let's put banner ads into it.

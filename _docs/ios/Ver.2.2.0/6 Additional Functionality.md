@@ -1,7 +1,7 @@
 ---
 title: "Additional Functionality"
 permalink: ios_ver_2.2.0_additional_functionality.html
-sidebar: jekyllhowto
+sidebar: mps_side_bar
 ---
 
 ## 1. Get MPS Site Config

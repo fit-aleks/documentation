@@ -1,7 +1,7 @@
 ---
 title: "MPS SDK Test App"
 permalink: ios_ver_2.2.0_mps_sdk_test_app.html
-sidebar: jekyllhowto
+sidebar: mps_side_bar
 ---
 
 ## 6.1 TestApp Installation

@@ -40,7 +40,7 @@ navbar-toggle: true
 
 # the links.html script requires you to list your sidebars here. this is if you're using managed links (see jekyllhowto-content-and-formatting.html#automatedlinks)
 sidebars:
-  - jekyllhowto
+  - mps_side_bar
 
 # determines whether the links.html script uses the jurl or hurl values in the sidebar data file
 link_type: jurl

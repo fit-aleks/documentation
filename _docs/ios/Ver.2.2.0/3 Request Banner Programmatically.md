@@ -1,7 +1,7 @@
 ---
 title: "Requesting Banner Ads Programmatically"
 permalink: ios_ver_2.2.0_request_banner_programmatically.html
-sidebar: jekyllhowto
+sidebar: mps_side_bar
 ---
 
 In addition to requesting banner ads via a storyboard, you can also request a banner ad and add it to the view hierarchy *programatically*.  

@@ -1,7 +1,7 @@
 ---
 title: "MPS Mobile SDK"
 permalink: index.html
-sidebar: jekyllhowto
+sidebar: mps_side_bar
 type: homepage
 class: first
 custom_breadcrumb: Getting Started

@@ -1,7 +1,7 @@
 ---
 title: "Request interstitial ad"
-permalink: /ver_2.1.0/ver_2.1.0_5_interstitial.html
-sidebar: jekyllhowto
+permalink: ver_2.1.0_5_interstitial.html
+sidebar: mps_side_bar
 ---
 You can also display interstitial ads to your MPSPage, very similarly to the way you added a banner ad.
 

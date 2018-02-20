@@ -1,8 +1,7 @@
 ---
 title: "MPS SDK VER 2.1.0"
 permalink: ver_2.1.0_index.html
-sidebar: jekyllhowto
-type: homepage
+sidebar: mps_side_bar
 ---
 
 ## Prerequisites

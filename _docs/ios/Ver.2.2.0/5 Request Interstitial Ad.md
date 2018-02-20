@@ -1,7 +1,7 @@
 ---
 title: "Requesting Interstitial Ads"
 permalink: ios_ver_2.2.0_request_interstitial.html
-sidebar: jekyllhowto
+sidebar: mps_side_bar
 ---
 
 You can also display interstitial ads to your MPSPage, very similarly to the way you added a banner ad.

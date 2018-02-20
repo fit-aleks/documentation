@@ -1,7 +1,7 @@
 ---
 title: "Here is the place for some basic Android MPS SDK description"
 permalink: android_base.html
-sidebar: jekyllhowto
+sidebar: mps_side_bar
 custom_breadcrumb: Some basic info
 ---
 

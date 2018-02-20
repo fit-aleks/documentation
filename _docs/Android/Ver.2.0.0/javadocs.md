@@ -1,8 +1,7 @@
 ---
 title: "Javadocs for version 2.0.0"
 permalink: ver_2.0.0_javadocs.html
-sidebar: jekyllhowto
-type: homepage
+sidebar: mps_side_bar
 ---
 Here you can find documentaiton regarding all public classes and protocols inside MPS SDK.
 

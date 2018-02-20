@@ -1,5 +1,5 @@
 ---
 title: "General info about Android versions"
 permalink: android_versions.html
-sidebar: jekyllhowto
+sidebar: mps_side_bar
 ---

@@ -42,7 +42,7 @@ folders:
             jurl: /ver_2.2.0_4_banner_xml.html
 
           - title: Request interstitial ad
-            jurl: /ver_2.2.0/ver_2.2.0_5_interstitial.html
+            jurl: /ver_2.2.0_5_interstitial.html
 
           - title: Test App Installation
             jurl: /ver_2.2.0_6_test_app.html
@@ -67,7 +67,7 @@ folders:
             jurl: /ver_2.1.0_4_banner_xml.html
 
           - title: Request interstitial ad
-            jurl: /ver_2.1.0/ver_2.1.0_5_interstitial.html
+            jurl: /ver_2.1.0_5_interstitial.html
 
           - title: Test App Installation
             jurl: /ver_2.1.0_6_test_app.html
