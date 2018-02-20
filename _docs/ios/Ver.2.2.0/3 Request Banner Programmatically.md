@@ -38,4 +38,4 @@ You will see the following result in the simulator.
 ## Result
 Congratulations, you've successfully made your banner ad request programatically! 
 
-![Result](/pics/gsg_banner_result.png)
+{% include image.html file="ios/gsg_banner_result.png" caption="Result" %}

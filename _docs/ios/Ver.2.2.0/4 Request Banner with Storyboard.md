@@ -12,14 +12,14 @@ A MPSBannerAdView can be created from a storyboard or from code. Since layouts a
 
 The MPSBannerAdView needs a reference in code to load ads into it.  
 
-![Xib](/pics/xib_1.png)
+{% include image.html file="ios/xib_1.png" caption="Xib" %}
 
 Open up the Assistant Editor by navigating in Xcode to *View > Assistant Editor > Show Assistant Editor*. 
 
 In the Assistant Editor, make sure the ViewController.h file is showing.  
 Next, hold the control key, click the MPSBannerAdView and drag your cursor over to **ViewController.h**. For a Swift project, follow the steps above but add a reference to the MPSBannerAdView in the **ViewController.swift** file.
 
-![Xib](/pics/xib_2.png)
+{% include image.html file="ios/xib_2.png" caption="Xib" %}
 
 Xcode will generate and connect a property for you. Name it "adView", and click Connect.
 
@@ -61,4 +61,4 @@ Or, if you're following along in Objective-C add the following code to **ViewCon
 
 This image shows the displayed banner ad.
 
-![Xib](/pics/xib_3.png)
+{% include image.html file="ios/xib_3.png" caption="Xib" %}

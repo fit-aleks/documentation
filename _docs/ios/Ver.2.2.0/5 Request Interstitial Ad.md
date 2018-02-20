@@ -41,4 +41,4 @@ You will see the following result in the simulator.
 
 Congratulations, you've successfully made your interstitial ad request programatically!
 
-![Result](/pics/interstitial_output.png)
+{% include image.html file="ios/interstitial_output.png" caption="Xib" %}
