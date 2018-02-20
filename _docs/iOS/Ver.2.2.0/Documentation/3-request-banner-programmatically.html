@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>3 Request Banner Programmatically  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+
+
+    <a title="3 Request Banner Programmatically  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          nbcu_mps_ios_sdk Docs
+        </a>
+         (76% documented)
+      </p>
+    
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">nbcu_mps_ios_sdk Reference</a>
+      <img class="carat" src="img/carat.png" />
+      3 Request Banner Programmatically  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="1-project-setup.html">1 Project setup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="2-sdk-initialization.html">2 SDK Initialization</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="3-request-banner-programmatically.html">3 Request Banner Programmatically</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="4-request-banner-with-storyboard.html">4 Request Banner with Storyboard</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="5-request-interstitial-ad.html">5 Request Interstitial Ad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="6-additional-functionality.html">6 Additional Functionality</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="7-test-app--installation.html">7 Test App &amp; Installation</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPS.html">MPS</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPSBannerAdView.html">MPSBannerAdView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPSInterstitialAd.html">MPSInterstitialAd</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPSOptions.html">MPSOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPSPage.html">MPSPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPSPageParameters.html">MPSPageParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPSSDKLogLevel.html">MPSSDKLogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPSServiceConfig.html">MPSServiceConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MoatBannerTracker.html">MoatBannerTracker</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MoatInterstitialTracker.html">MoatInterstitialTracker</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MoatService.html">MoatService</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/AdBannerTrackerInteractor.html">AdBannerTrackerInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/AdInterstitialTrackerInteractor.html">AdInterstitialTrackerInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MPSAdServiceInteractor.html">MPSAdServiceInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MPSBannerAdViewDelegate.html">MPSBannerAdViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MPSInterstitialAdDelegate.html">MPSInterstitialAdDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            
+            <h1 id='requesting-banner-ads-programmatically' class='heading'>Requesting Banner Ads Programmatically</h1>
+
+<p>In addition to requesting banner ads via a storyboard, you can also request a banner ad and add it to the view hierarchy <em>programatically</em>.  </p>
+
+<p>Building on where you left off from creating a MPS instance and requesting a page object, you can just add the following code to <strong>ViewController.swift</strong>.</p>
+<pre class="highlight swift"><code>    <span class="n">page</span><span class="o">.</span><span class="nf">getBannerAd</span><span class="p">(</span><span class="nv">adUnit</span><span class="p">:</span> <span class="s">"testbox"</span><span class="p">,</span> <span class="nv">rootViewController</span><span class="p">:</span> <span class="k">self</span><span class="p">,</span> <span class="nv">success</span><span class="p">:</span> <span class="p">{</span> <span class="p">[</span><span class="k">weak</span> <span class="k">self</span><span class="p">]</span> <span class="p">(</span><span class="n">ad</span><span class="p">)</span> <span class="k">in</span>
+        <span class="k">if</span> <span class="k">let</span> <span class="nv">sSelf</span> <span class="o">=</span> <span class="k">self</span> <span class="p">{</span>
+            <span class="n">sSelf</span><span class="o">.</span><span class="n">view</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="n">ad</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">})</span> <span class="p">{</span> <span class="p">(</span><span class="n">error</span><span class="p">)</span> <span class="k">in</span>
+        <span class="nf">print</span><span class="p">(</span><span class="n">error</span><span class="o">.</span><span class="n">localizedDescription</span><span class="p">)</span>
+    <span class="p">}</span>
+
+</code></pre>
+
+<p>Or, if you&rsquo;re following along in Objective-C add the following code to <strong>ViewController.m</strong>.</p>
+<pre class="highlight objective_c"><code>    <span class="n">__weak</span> <span class="n">ViewController</span> <span class="o">*</span><span class="n">wself</span> <span class="o">=</span> <span class="n">self</span><span class="p">;</span>
+    <span class="n">NSDictionary</span> <span class="o">*</span><span class="n">targeting</span> <span class="o">=</span> <span class="p">[</span><span class="n">NSDictionary</span> <span class="nf">dictionaryWithObjectsAndKeys</span><span class="p">:</span> <span class="s">"targetingValue"</span><span class="p">,</span> <span class="s">"targetingKeys"</span><span class="p">,</span> <span class="nb">nil</span><span class="p">];</span>
+    <span class="p">[</span><span class="n">page</span> <span class="nf">getBannerAdWithAdUnit</span><span class="p">:</span><span class="s">"testbox"</span> <span class="nf">additionalTargeting</span><span class="p">:</span><span class="n">targeting</span> <span class="n">rootViewController</span><span class="o">:</span><span class="n">self</span> <span class="n">success</span><span class="o">:^</span><span class="p">(</span><span class="n">MPSBannerAdView</span> <span class="o">*</span> <span class="n">_Nonnull</span> <span class="n">adView</span><span class="p">)</span> <span class="p">{</span>
+        <span class="p">[</span><span class="n">wself</span><span class="p">.</span><span class="n">view</span> <span class="nf">addSubview</span><span class="p">:</span><span class="n">adView</span><span class="p">];</span>
+    <span class="p">}</span> <span class="n">failure</span><span class="o">:^</span><span class="p">(</span><span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nonnull</span> <span class="n">error</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">NSLog</span><span class="p">(</span><span class="n">error</span><span class="p">);</span>
+    <span class="p">}];</span>
+
+</code></pre>
+
+<p>Build and run the application.<br>
+You will see the following result in the simulator. </p>
+<h2 id='result' class='heading'>Result</h2>
+
+<p>Congratulations, you&rsquo;ve successfully made your banner ad request programatically! </p>
+
+<p><img src="pics/gsg_banner_result.png" alt="Result"></p>
+
+          </div>
+        </section>
+
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>NBC Universal</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>
