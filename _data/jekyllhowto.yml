@@ -101,12 +101,10 @@ folders:
             jurl: /ver_2.0.0_javadocs.html
 
 - title: iOS
-  pdf: true
-  jurl: /basic_ios.html
 
   folderitems:
   - title: Some basic info
-    jurl: /basic_ios.html
+    jurl: /ios_base.html
     pdf: false
 
     subfolders:
@@ -116,7 +114,7 @@ folders:
 
       - title: Test
         output: web
-        jurl: /basic_ios.html
+        jurl: /ios_versions.html
 
         subsubfolders:
         - title: Version 2.2.0
