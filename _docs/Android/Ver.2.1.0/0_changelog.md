@@ -4,6 +4,9 @@ permalink: ver_2.1.0_changelog.html
 sidebar: mps_side_bar
 ---
 
+## MPS SDK 2.1.0
+_March 2018_
+
 * Audience Studio integration
 * Error reporting to MPS via pixel
 * TestApp: bookmark request parameters

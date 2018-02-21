@@ -1,5 +1,5 @@
 ---
-title: "Release note"
+title: "Project Setup"
 permalink: ver_2.0.0_index.html
 sidebar: mps_side_bar
 ---
