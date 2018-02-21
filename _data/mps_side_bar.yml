@@ -83,9 +83,6 @@ folders:
       - title: MPS SDK Test App
         jurl: /ver_2.0.0_6_test_app.html
 
-      - title: MPS SDK Sample App
-        jurl: /ver_2.0.0_7_sample_app.html
-
       - title: References
         jurl: /ver_2.0.0_javadocs.html
         

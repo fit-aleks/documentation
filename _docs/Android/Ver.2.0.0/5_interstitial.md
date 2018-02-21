@@ -39,4 +39,4 @@ Build and run the application.
 
 This image shows the displayed banner ad.
 
-![Interstitial Ad](/images/interstitial.png)
+{% include image.html file="android/interstitial.png" caption="Interstitial Ad" %}

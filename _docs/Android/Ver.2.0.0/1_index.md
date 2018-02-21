@@ -1,5 +1,5 @@
 ---
-title: "MPS SDK VER 2.0.0"
+title: "Release note"
 permalink: ver_2.0.0_index.html
 sidebar: mps_side_bar
 ---
@@ -9,7 +9,7 @@ sidebar: mps_side_bar
 * Developing for Android API level 19 or higher
 
 <p id="download">
-    <a  href="https://github.com/NBCUOTS/mobile_mps_sdk_android_examples/releases/tag/release-2.1.0">Download MPS SDK Examples
+    <a  href="https://github.com/NBCUOTS/mobile_mps_sdk_android_examples/releases/tag/release-1.0.0">Download MPS SDK Examples
     </a>
 </p>
 
@@ -52,7 +52,7 @@ On this screen you have the option of choosing names for the app's activity and 
 
 ### 1.6 Add SDK to Your Project
 
-Copy **mps-sdk-${VERSION}.aar** and **NBM-moat-mobile-app-kit-2.4.1.aar** files to your libs folder and add the following code to your project’s **build.gradle** file:
+Copy **mps-sdk-${VERSION}.aar** to your libs folder and add the following code to your project’s **build.gradle** file:
 
 ```gradle
 allprojects {
@@ -70,8 +70,7 @@ Add the following line to your **dependencies** section in your app's **build.gr
 ```
 dependencies {
     ...
-    implementation(name:'mps-sdk-${VERSION}', ext:'aar')
-    implementation(name:'NBM-moat-mobile-app-kit-2.4.1', ext:'aar')
+    compile(name:'mps-sdk-${VERSION}', ext:'aar')
     ...
 }
 ```
@@ -81,8 +80,7 @@ Then add the following dependency which is used by SDK:
 ```
 dependencies {
     ...
-    implementation "com.google.android.gms:play-services-ads:11.8.0"
-    implementation "com.google.android.gms:play-services-base:11.8.0"
+    compile 'com.google.android.gms:play-services-ads:11.0.4'
     ...
 }
 ```

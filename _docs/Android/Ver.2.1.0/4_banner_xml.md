@@ -46,4 +46,4 @@ mpsBannerAdView.displayBannerAd("testbox", page, additionalTargeting, new MPSBan
 
 This image shows the displayed banner ad.
 
-![Banner Loaded Via XML](/images/android/banner_xml.png)
+{% include image.html file="android/banner_xml.png" caption="Banner Loaded Via XML" %}

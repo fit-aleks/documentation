@@ -47,4 +47,4 @@ page.getBannerAd("testbanner", additionalTargeting, container, new MpsAdListener
 
 Congratulations, you’ve successfully made your banner ad request programatically!
 
-![Banner Loaded Programatically](/images/android/banner_program.png)
+{% include image.html file="android/banner_program.png" caption="Banner Loaded Programatically" %}

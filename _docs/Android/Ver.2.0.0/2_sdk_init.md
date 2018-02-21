@@ -3,6 +3,7 @@ title: "Initiate the SDK"
 permalink: ver_2.0.0_2_sdk_init.html
 sidebar: mps_side_bar
 ---
+
 You can now create an instance of MPS with the appropriate host URL and site by initializing the library. You can also specify the log level for this instance. Refer to MPSSDKLogLevel in the documentation for more details.
 
 Before start using the SDK it should be created with the following method call. Non-null instance of context should be passed to initialize cache folders in app internal folder.
@@ -18,10 +19,9 @@ try {
     return;
 }
 
-final MPSOptions options = new MPSOptions();
-options.logLevel = MPSSDKLogLevel.DEBUG;
-options.testMode = false;
-final MPS mps = MPS.init(applicationInstance, mpsUrl, "test-sdk", options);
+boolean testMode = false;
+
+final MPS mps = MPS.init(context, mpsUrl, "test-sdk", MPSSDKLogLevel.DEBUG, testMode);
 ```
 
 The last parameter can be one of the @MPSSDKLogLevel.LogLevel and defines the number of logs which will be printed by the SDK
