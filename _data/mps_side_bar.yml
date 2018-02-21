@@ -13,7 +13,7 @@ folders:
 - title: Android
 
   folderitems:
-  - title: Summary & links to available documentation versions. Release notes
+  - title: Release notes
     jurl: /android_base.html
 
     subfolders:
