@@ -4,16 +4,16 @@ sidebarTitle: Generic
 
 folders:
 
-- title: MPS SDK
+- title: Summary
   
   folderitems:
-  - title: Getting Started
+  - title: Summary
     jurl: index.html
 
 - title: Android
 
   folderitems:
-  - title: Some basic info
+  - title: Summary & links to available documentation versions
     jurl: /android_base.html
 
     subfolders:
@@ -21,7 +21,7 @@ folders:
       output: web
       subfolderitems:
 
-      - title: Test
+      - title: Release Notes
         jurl: /android_versions.html
 
         subsubfolders:
@@ -29,10 +29,13 @@ folders:
           output: web
           subsubfolderitems:
 
-          - title: Getting Started
+          - title: Release note
+            jurl: /ver_2.2.0_changelog.html
+
+          - title: Project Setup
             jurl: /ver_2.2.0_index.html
 
-          - title: Initiate the SDK
+          - title: SDK Initialization
             jurl: /ver_2.2.0_2_sdk_init.html
 
           - title: Request banner ad programmatically
@@ -44,17 +47,23 @@ folders:
           - title: Request interstitial ad
             jurl: /ver_2.2.0_5_interstitial.html
 
-          - title: Test App Installation
+          - title: MPS SDK Test App
             jurl: /ver_2.2.0_6_test_app.html
 
-          - title: Javadocs
+          - title: MPS SDK Sample App
+            jurl: /ver_2.2.0_7_sample_app.html
+
+          - title: References
             jurl: /ver_2.2.0_javadocs.html
             
         - title: Version 2.1.0
           output: web
           subsubfolderitems:
 
-          - title: Getting Started
+          - title: Release note
+            jurl: /ver_2.1.0_changelog.html
+
+          - title: Project Setup
             jurl: /ver_2.1.0_index.html
 
           - title: Initiate the SDK
@@ -69,17 +78,23 @@ folders:
           - title: Request interstitial ad
             jurl: /ver_2.1.0_5_interstitial.html
 
-          - title: Test App Installation
+          - title: MPS SDK Test App
             jurl: /ver_2.1.0_6_test_app.html
 
-          - title: Javadocs
+          - title: MPS SDK Sample App
+            jurl: /ver_2.1.0_7_sample_app.html
+
+          - title: References
             jurl: /ver_2.1.0_javadocs.html
 
         - title: Version 2.0.0
           output: web
           subsubfolderitems:
 
-          - title: Getting Started
+          - title: Release note
+            jurl: /ver_2.0.0_changelog.html
+
+          - title: Project Setup
             jurl: /ver_2.0.0_index.html
 
           - title: Initiate the SDK
@@ -94,10 +109,13 @@ folders:
           - title: Request interstitial ad
             jurl: /ver_2.0.0_5_interstitial.html
 
-          - title: Test App Installation
+          - title: MPS SDK Test App
             jurl: /ver_2.0.0_6_test_app.html
 
-          - title: Javadocs
+          - title: MPS SDK Sample App
+            jurl: /ver_2.0.0_7_sample_app.html
+
+          - title: References
             jurl: /ver_2.0.0_javadocs.html
 
 - title: iOS

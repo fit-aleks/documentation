@@ -1,5 +1,5 @@
 ---
-title: "Initiate the SDK"
+title: "SDK Initialization "
 permalink: ver_2.2.0_2_sdk_init.html
 sidebar: mps_side_bar
 ---

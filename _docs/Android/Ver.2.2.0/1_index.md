@@ -1,5 +1,5 @@
 ---
-title: "MPS SDK VER 2.2.0"
+title: "Project setup"
 permalink: ver_2.2.0_index.html
 sidebar: mps_side_bar
 ---
