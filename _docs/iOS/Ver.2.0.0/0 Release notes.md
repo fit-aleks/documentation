@@ -21,6 +21,8 @@ New features:
 The related MPS Test App is available here:
 [HockeyAppLink](https://rink.hockeyapp.net/manage/apps/463225/app_versions/171)
 <br/> The related GitHub Release Page is available here: [GitHubLink](https://github.com/NBCUOTS/mobile_mps_sdk_ios_examples/releases/tag/release-2.0.0)
+<br/>
+The related Code Documentaion is available here: [Docs](https://fit-aleks.github.io/documentation/docs/iOS/Ver.2.0.0/Documentation/index.html)
 
 <br/>PodSpec:
 ```ruby
