@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>4 Request Banner with Storyboard  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+
+
+    <a title="4 Request Banner with Storyboard  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          nbcu_mps_ios_sdk Docs
+        </a>
+         (100% documented)
+      </p>
+    
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">nbcu_mps_ios_sdk Reference</a>
+      <img class="carat" src="img/carat.png" />
+      4 Request Banner with Storyboard  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="1-project-setup.html">1 Project setup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="2-sdk-initialization.html">2 SDK Initialization</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="3-request-banner-programmatically.html">3 Request Banner Programmatically</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="4-request-banner-with-storyboard.html">4 Request Banner with Storyboard</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="5-request-interstitial-ad.html">5 Request Interstitial Ad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="6-additional-functionality.html">6 Additional Functionality</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="7-test-app--installation.html">7 Test App &amp; Installation</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPS.html">MPS</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPSBannerAdView.html">MPSBannerAdView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPSInterstitialAd.html">MPSInterstitialAd</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPSPage.html">MPSPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPSPageParameters.html">MPSPageParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPSSDKLogLevel.html">MPSSDKLogLevel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MPSBannerAdViewDelegate.html">MPSBannerAdViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MPSInterstitialAdDelegate.html">MPSInterstitialAdDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            
+            <h1 id='requesting-banner-ads-using-a-storyboard' class='heading'>Requesting Banner Ads using a Storyboard</h1>
+
+<p>Now that you have setup your project with the SDK, let&rsquo;s put banner ads into it.</p>
+
+<p>A MPSBannerAdView can be created from a storyboard or from code. Since layouts are generally defined in a storyboard, this guide shows the storyboard method.</p>
+<h2 id='add-an-mpsbanneradview-in-a-storyboard-br' class='heading'>Add an MPSBannerAdView in a Storyboard <br/></h2>
+
+<p>The MPSBannerAdView needs a reference in code to load ads into it.  </p>
+
+<p><img src="pics/xib_1.png" alt="Xib"></p>
+
+<p>Open up the Assistant Editor by navigating in Xcode to <em>View &gt; Assistant Editor &gt; Show Assistant Editor</em>. </p>
+
+<p>In the Assistant Editor, make sure the ViewController.h file is showing.<br>
+Next, hold the control key, click the MPSBannerAdView and drag your cursor over to <strong>ViewController.h</strong>. For a Swift project, follow the steps above but add a reference to the MPSBannerAdView in the <strong>ViewController.swift</strong> file.</p>
+
+<p><img src="pics/xib_2.png" alt="Xib"></p>
+
+<p>Xcode will generate and connect a property for you. Name it <q>adView</q>, and click Connect.</p>
+
+<p>To resolve a compilation error, also include <strong>import nbcu_mps_ios_sdk</strong> in <strong>ViewController.swift</strong> or <strong>ViewController.h</strong> so the compiler knows that MPSBannerAdView is a valid class.</p>
+<h2 id='load-an-ad-into-mpsbanneradview' class='heading'>Load an Ad into MPSBannerAdView</h2>
+
+<p>Finally, add the following code into <strong>ViewController.swift</strong> to load an ad into the banner view.</p>
+<pre class="highlight swift"><code> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">viewDidLoad</span><span class="p">()</span>
+
+        <span class="k">let</span> <span class="nv">params</span> <span class="o">=</span> <span class="kt">MPSPageParameters</span><span class="p">(</span><span class="nv">path</span><span class="p">:</span> <span class="s">"page"</span><span class="p">)</span>
+        <span class="n">params</span><span class="o">.</span><span class="n">cat</span> <span class="o">=</span> <span class="s">"someCatValue"</span>
+
+        <span class="k">let</span> <span class="nv">page</span> <span class="o">=</span> <span class="n">mps</span><span class="o">.</span><span class="nf">requestPageObject</span><span class="p">(</span><span class="nv">mpsParams</span><span class="p">:</span> <span class="n">params</span><span class="p">)</span>
+        <span class="k">let</span> <span class="nv">targeting</span> <span class="o">=</span> <span class="p">[</span><span class="s">"targetingKey"</span><span class="p">:</span> <span class="s">"targeting-value"</span><span class="p">];</span>
+        <span class="n">adView</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="k">self</span>
+        <span class="n">adView</span><span class="o">.</span><span class="nf">displayBannerAd</span><span class="p">(</span><span class="nv">adSlot</span><span class="p">:</span> <span class="s">"testbox"</span><span class="p">,</span> <span class="nv">additionalTargeting</span><span class="p">:</span> <span class="n">targeting</span><span class="p">,</span> <span class="nv">page</span><span class="p">:</span> <span class="n">page</span><span class="p">,</span> <span class="nv">rootViewController</span><span class="p">:</span> <span class="k">self</span><span class="p">)</span>
+    <span class="p">}</span>
+</code></pre>
+
+<p>Or, if you&rsquo;re following along in Objective-C add the following code to <strong>ViewController.m</strong>.</p>
+<pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">viewDidLoad</span> <span class="p">{</span>
+    <span class="p">[</span><span class="n">super</span> <span class="nf">viewDidLoad</span><span class="p">];</span>
+
+    <span class="n">MPSPageParameters</span> <span class="o">*</span><span class="n">params</span> <span class="o">=</span> <span class="p">[[</span><span class="n">MPSPageParameters</span> <span class="nf">alloc</span><span class="p">]</span> <span class="nf">initWithPath</span><span class="p">:</span><span class="s">@"page"</span><span class="p">];</span>
+    <span class="n">page</span> <span class="o">=</span> <span class="p">[</span><span class="n">mps</span> <span class="nf">requestPageObjectWithMpsParams</span><span class="p">:</span><span class="n">params</span><span class="p">];</span>   
+
+    <span class="n">adView</span><span class="p">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="n">self</span><span class="p">;</span>
+    <span class="p">[</span><span class="n">adView</span> <span class="nf">displayBannerAdWithAdSlot</span><span class="p">:</span><span class="s">@"testbox"</span> <span class="nf">page</span><span class="p">:</span><span class="n">page</span> <span class="n">rootViewController</span><span class="o">:</span><span class="n">self</span><span class="p">];</span>
+<span class="p">}</span>
+</code></pre>
+<h2 id='result' class='heading'>Result</h2>
+
+<p>This image shows the displayed banner ad.</p>
+
+<p><img src="pics/xib_3.png" alt="Xib"></p>
+
+          </div>
+        </section>
+
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>NBC Universal</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

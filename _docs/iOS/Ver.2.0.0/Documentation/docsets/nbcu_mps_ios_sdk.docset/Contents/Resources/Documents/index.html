@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>nbcu_mps_ios_sdk  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+
+
+    <a title="nbcu_mps_ios_sdk  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          nbcu_mps_ios_sdk Docs
+        </a>
+         (100% documented)
+      </p>
+    
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">nbcu_mps_ios_sdk Reference</a>
+      <img class="carat" src="img/carat.png" />
+      nbcu_mps_ios_sdk  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="1-project-setup.html">1 Project setup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="2-sdk-initialization.html">2 SDK Initialization</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="3-request-banner-programmatically.html">3 Request Banner Programmatically</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="4-request-banner-with-storyboard.html">4 Request Banner with Storyboard</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="5-request-interstitial-ad.html">5 Request Interstitial Ad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="6-additional-functionality.html">6 Additional Functionality</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="7-test-app--installation.html">7 Test App &amp; Installation</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPS.html">MPS</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPSBannerAdView.html">MPSBannerAdView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPSInterstitialAd.html">MPSInterstitialAd</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPSPage.html">MPSPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPSPageParameters.html">MPSPageParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MPSSDKLogLevel.html">MPSSDKLogLevel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MPSBannerAdViewDelegate.html">MPSBannerAdViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MPSInterstitialAdDelegate.html">MPSInterstitialAdDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            
+            <h1 id='project-setup' class='heading'>Project Setup</h1>
+<h2 id='prerequisites' class='heading'>Prerequisites</h2>
+
+<ul>
+<li>Xcode 8 or higher</li>
+<li>Deployment target of 8.0 or higher</li>
+</ul>
+
+<p id="download">
+    <a  href="https://github.com/NBCUOTS/mobile_mps_sdk_ios_examples/releases/tag/release-1.0.0">Download MPS SDK Examples
+    </a>
+</p>
+<h2 id='1-1-create-a-new-project' class='heading'>1.1 Create a New Project</h2>
+
+<p>Open Xcode.<br>
+Navigate to <em>File &gt; New &gt; Project&hellip;</em><br>
+Select <em>Single View Application</em> under iOS Applications, and click Next.</p>
+
+<p><img src="pics/Single_view_application.png" alt="Step_0"></p>
+
+<p>Give your project the desired <em>Product Name</em>. For the purposes of this example we will call it ReferenceTestApp.<br>
+Enter your <em>Organization Name</em> and <em>Identifier</em>.<br>
+Choose either <q>Swift</q> or <q>Objective-C</q> for the <em>Language</em>. We will use Swift for this demo.<br>
+Click Next.</p>
+
+<p><img src="pics/xcode_installation_name.png" alt="Step_1"></p>
+
+<p>Finally create save the project in your desired location.</p>
+<h2 id='1-2-add-sdk-to-your-project-and-instantiate' class='heading'>1.2 Add SDK to Your Project and Instantiate</h2>
+
+<p>Copy the provided <strong>nbcu_mps_ios_sdk.framework</strong> and <strong>GoogleMobileAds.framework</strong> to your project, and make sure the <em>Copy items if needed</em> and <em>Add to targets</em> options are enabled. Also add the <strong>AdSupport.framework</strong> to your projects Linked Frameworks and Libraries section.</p>
+
+<p><img src="pics/installation_step_1.png" alt="Step_2"></p>
+
+<p>If you see a message about updating the Google Mobile Ads SDK, please contact the MPS SDK Support team prior to updating.<br>
+Email: <a href="mailto:mps-sdk-support@nbcuni.com">mps-sdk-support@nbcuni.com</a>, DPIM Slack channel:  #mps_sdk_support</p>
+<h2 id='1-3-add-sdk-to-embedded-framework' class='heading'>1.3 Add SDK to Embedded Framework</h2>
+
+<p>Add the <strong>nbcu_mps_ios_sdk.framework</strong> to the Embedded Binaries section of your project.</p>
+
+<p><img src="pics/embedded_framework.png" alt="Step_3"></p>
+<h2 id='1-4-update-app-transport-security-in-ios-9' class='heading'>1.4 Update App Transport Security in iOS 9</h2>
+
+<p>Google Mobile Ads SDK requires adding the <strong>NSAllowsArbitraryLoads</strong> exception to make sure your ads are not impacted by App Transport Security (ATS) on iOS 9 devices.<br>
+For iOS 10 devices, <strong>NSAllowsArbitraryLoadsForMedia</strong> and <strong>NSAllowsArbitraryLoadsInWebContent</strong> are required to make sure your ads are not impacted by ATS.</p>
+
+<p>Add these values to the <strong>info.plist</strong> file of your application. </p>
+<pre class="highlight plaintext"><code>&lt;key&gt;NSAppTransportSecurity&lt;/key&gt;
+&lt;dict&gt;
+    &lt;key&gt;NSAllowsArbitraryLoads&lt;/key&gt;
+    &lt;true/&gt;
+&lt;/dict&gt;
+</code></pre>
+
+<p>Reference: <a href="https://developers.google.com/mobile-ads-sdk/docs/dfp/ios/app-transport-security">Google ATS details</a>. </p>
+<h2 id='1-5-objective-c-project-settings' class='heading'>1.5 Objective-C Project Settings</h2>
+
+<p>For Objective-C projects you should enable swift libraries.</p>
+
+<p><img src="pics/project_stgs_objcs.png" alt="Framework search path"></p>
+<h2 id='1-6-update-simulator-scheme-environment-variables-optional' class='heading'>1.6 Update Simulator Scheme Environment Variables (optional)</h2>
+
+<p>If you want to disable system log messages, you can optionally add <strong>OS_ACTIVITY_MODE=disable</strong> to the <em>Environment Variables</em> under <em>Arguments</em> of the scheme.</p>
+
+<p><img src="pics/install_turn_off_notitifcations.png" alt="Notifications"></p>
+<h2 id='1-7-app-store-submission' class='heading'>1.7 App Store Submission</h2>
+
+<p>Because the SDK is FAT Binary and works for simulators and devices you need to update it before App Store submission.</p>
+<pre class="highlight plaintext"><code>chmod u+x app-store-submission.sh
+</code></pre>
+
+<p>And add app-store-submission.sh file to run phases with</p>
+<pre class="highlight plaintext"><code>"$SRCROOT/PATH_TO_FILE/app-store-submission.sh"
+</code></pre>
+
+<p><img src="pics/app-store-phases.png" alt="Notifications"></p>
+
+<style>
+#download > a
+{
+    background-color: #039be5;
+    color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);  
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    height: 44px;
+    margin: 0;
+    min-width: 36px;
+    outline: 0;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: middle;
+    text-align: center;
+    vertical-align: middle;
+}
+</style>
+
+          </div>
+        </section>
+
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>NBC Universal</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

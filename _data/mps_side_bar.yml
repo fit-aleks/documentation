@@ -93,54 +93,129 @@ folders:
 - title: iOS
 
   folderitems:
-  - title: Some basic info
-    jurl: /ios_base.html
+  - title: Release notes
+    jurl: /ios_release_notes_global.html
     pdf: false
 
     subfolders:
-    - title: Versions
+    - title: Version 2.1.0
       output: web
       subfolderitems:
 
-      - title: Test
-        output: web
-        jurl: /ios_versions.html
+      - title: Release notes
+        jurl: /ios_ver_2.1.0_release_notes.html
+
+      - title: Project setup
+        jurl: /ios_ver_2.1.0_project_setup.html
 
         subsubfolders:
-        - title: Version 2.1.0
+        - title: SDK Initialization
           output: web
           subsubfolderitems:
 
-          - title: Project setup
-            jurl: /ios_ver_2.1.0_project_setup.html
-            pdf: false
-
-          - title: Initialization
+          - title: SDK Initialization
             jurl: /ios_ver_2.1.0_initialization.html
-            pdf: false
+
+          - title: Moat SDK
+            jurl: /ios_ver_2.1.0_moat_sdk.html
+
+        - title: Display Ads (Google Mobile Ads SDK)
+          output: web
+          subsubfolderitems:
 
           - title: Requesting Banner Ads Programmatically
             jurl: /ios_ver_2.1.0_requesting_banner_ad.html
-            pdf: false
 
           - title: Requesting Banner Ads using a Storyboard
             jurl: /ios_ver_2.1.0_requesting_banner_ad2.html
-            pdf: false
 
           - title: Requesting Interstitial Ads
             jurl: /ios_ver_2.1.0_requesting_interstitial_ads.html
-            pdf: false
-            
+          
           - title: Additional Functionality
             jurl: /ios_ver_2.1.0_additional_functionality.html
-            pdf: false
 
-          - title: Test App
-            jurl: /ios_ver_2.1.0_mps_sdk_test_app.html
+      - title: MPS SDK Test App
+        jurl: /ios_ver_2.1.0_mps_sdk_test_app.html
+      
+      - title: MPS SDK Sample App
+        jurl: /ios_ver_2.1.0_mps_sdk_sample_app.html
+
+      - title: References
+        jurl: /ios_ver_2.1.0_documentation.html
+        pdf: false
+
+    - title: Version 2.0.0
+      output: web
+      subfolderitems:
+
+      - title: Release notes
+        jurl: /ios_ver_2.0.0_release_notes.html
+
+      - title: Project setup
+        jurl: /ios_ver_2.0.0_project_setup.html
+
+      - title: SDK Initialization
+        jurl: /ios_ver_2.0.0_initialization.html
+
+        subsubfolders:
+        - title: Display Ads (Google Mobile Ads SDK)
+          output: web
+          subsubfolderitems:
+
+          - title: Requesting Banner Ads Programmatically
+            jurl: /ios_ver_2.0.0_requesting_banner_ad.html
+
+          - title: Requesting Banner Ads using a Storyboard
+            jurl: /ios_ver_2.0.0_requesting_banner_ad2.html
+
+          - title: Requesting Interstitial Ads
+            jurl: /ios_ver_2.0.0_requesting_interstitial_ads.html
           
-          - title: Sample App
-            jurl: /ios_ver_2.1.0_mps_sdk_sample_app.html
+          - title: Additional Functionality
+            jurl: /ios_ver_2.0.0_additional_functionality.html
 
-          - title: Documentation
-            jurl: /ios_ver_2.1.0_documentation.html
-            pdf: false
+      - title: MPS SDK Sample App
+        jurl: /ios_ver_2.0.0_mps_sdk_sample_app.html
+
+      - title: References
+        jurl: /ios_ver_2.0.0_documentation.html
+        pdf: false
+
+
+    - title: Version 1.1.4
+      output: web
+      subfolderitems:
+
+      - title: Release notes
+        jurl: /ios_ver_1.1.4_release_notes.html
+
+      - title: Project setup
+        jurl: /ios_ver_1.1.4_project_setup.html
+
+      - title: SDK Initialization
+        jurl: /ios_ver_1.1.4_initialization.html
+
+        subsubfolders:
+        - title: Display Ads (Google Mobile Ads SDK)
+          output: web
+          subsubfolderitems:
+
+          - title: Requesting Banner Ads Programmatically
+            jurl: /ios_ver_1.1.4_requesting_banner_ad.html
+
+          - title: Requesting Banner Ads using a Storyboard
+            jurl: /ios_ver_1.1.4_requesting_banner_ad2.html
+
+          - title: Requesting Interstitial Ads
+            jurl: /ios_ver_1.1.4_requesting_interstitial_ads.html
+          
+          - title: Additional Functionality
+            jurl: /ios_ver_1.1.4_additional_functionality.html
+      
+      - title: MPS SDK Sample App
+        jurl: /ios_ver_1.1.4_mps_sdk_sample_app.html
+
+      - title: References
+        jurl: /ios_ver_1.1.4_documentation.html
+        pdf: false
