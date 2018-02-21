@@ -5,13 +5,16 @@ sidebar: mps_side_bar
 ---
 
 # 2.1.0
+*Jan 1, 2039* <br/>
 
 MPS iOS SDK for iOS 8 and higher.
 
 New features:
 * Moat interation
 
+
 # 2.0.0
+*Nov 13, 2017* <br/>
 
 MPS iOS SDK for iOS 8 and higher.
 
@@ -30,8 +33,10 @@ The related MPS Test App is available here:
 [HockeyAppLink](https://rink.hockeyapp.net/manage/apps/463225/app_versions/171)
 
 # 1.1.4
+*Sep 28, 2017* <br/>
 
 MPS iOS SDK for iOS 8 and higher.
+
 Features:
 * iOS 11 support
 * Swift 4 compatibility

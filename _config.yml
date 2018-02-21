@@ -196,9 +196,9 @@ collections:
 # Translate these for Japanese and German outputs.
 
 uistring:
-    title: Jekyll Doc Project theme # title to appear in nav bar and page meta
-    description: Description of the site # Displays as site description meta tag for site
-    copyright: 2017 Your Company, Inc. # appears in footer
+    title: MPS Mobile SDK Documentation # title to appear in nav bar and page meta
+    description: iOS and Android SDK docs # Displays as site description meta tag for site
+    copyright: 2018 NBC Universal, Inc. # appears in footer
     breadcrumb_home_name: Home # display name for "Home" path in the breadcrumb
     tableofcontents: Table of Contents # text that appears before in-page table of contents
     expandall: Expand All # appears as text in sidebar to expand all levels
