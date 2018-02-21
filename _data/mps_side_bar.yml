@@ -35,14 +35,14 @@ folders:
           output: web
           subsubfolderitems:
 
-          - title: Request banner ad programmatically
-            jurl: /ver_2.1.0_3_request_banner_programmatically.html
+            - title: Request banner ad programmatically
+              jurl: /ver_2.1.0_3_request_banner_programmatically.html
 
-          - title: Request banner ad with XML
-            jurl: /ver_2.1.0_4_banner_xml.html
+            - title: Request banner ad with XML
+              jurl: /ver_2.1.0_4_banner_xml.html
 
-          - title: Request interstitial ad
-            jurl: /ver_2.1.0_5_interstitial.html
+            - title: Request interstitial ad
+              jurl: /ver_2.1.0_5_interstitial.html
 
       - title: MPS SDK Test App
         jurl: /ver_2.1.0_6_test_app.html
