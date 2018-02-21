@@ -1,8 +1,8 @@
 ---
-title: "Here is the place for some basic Android MPS SDK description"
+title: "Summary & links to available documentation versions. Release notes"
 permalink: android_base.html
 sidebar: mps_side_bar
 custom_breadcrumb: Some basic info
 ---
 
-Anything about Android can be placed here
+Summary & links to available documentation versions. Release notes
