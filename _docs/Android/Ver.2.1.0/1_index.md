@@ -52,35 +52,45 @@ On this screen you have the option of choosing names for the app's activity and 
 
 ### 1.6 Add SDK to Your Project
 
-Copy **mps-sdk-${VERSION}.aar** and **NBM-moat-mobile-app-kit-2.4.1.aar** files to your libs folder and add the following code to your project’s **build.gradle** file:
+*2 Steps Require to integrate Outbrain SDK with your code:*
+
+1) In the *project’s* ```build.gradle``` file (NOT the app module build.gradle) –> under “all projects” –> “repositories” add the following:
 
 ```gradle
 allprojects {
     repositories {
         jcenter()
-        flatDir {
-            dirs 'libs'
+        maven {
+            url "https://nexus-mps-sdk.apps.nbcuni.com/repository/maven-releases/"
+            credentials {
+                username = "******"
+                password = "******"
+            }
         }
     }
 }
 ```
+
+* Please contact your Account Manager in order to receive a valid password.
+
+2) In the *app module’s* ```build.gradle``` file –> under *dependencies* –> add the line:
 
 Add the following line to your **dependencies** section in your app's **build.gradle** file:
 
 ```
 dependencies {
     ...
-    implementation(name:'mps-sdk-${VERSION}', ext:'aar')
-    implementation(name:'NBM-moat-mobile-app-kit-2.4.1', ext:'aar')
+    implementation 'com.nbcuni.mps:mps-android:2.1.0'
     ...
 }
 ```
 
-Then add the following dependency which is used by SDK:
+Our SDK has dependencies for Google Play Services to show ads and fot Moat to collect analytics. You can add only those dependencies which are needed by your project.
 
 ```
 dependencies {
     ...
+    implementation 'com.moat.analytics.mobile.nbm:moat:2.4.1'
     implementation "com.google.android.gms:play-services-ads:11.8.0"
     implementation "com.google.android.gms:play-services-base:11.8.0"
     ...
