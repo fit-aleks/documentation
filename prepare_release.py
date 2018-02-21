@@ -71,7 +71,7 @@ def _get_all_version():
     versions=[]
 
     navigation = yaml.load(open('_data/mps_side_bar.yml', 'r'))
-    versions_list = _get_android_verstion_list(navigation)['subsubfolders']
+    versions_list = _get_android_verstion_list(navigation)
     for version in versions_list:
         # take version after 'Version '
         versions.append(version['title'][len('Version '):])
@@ -120,9 +120,11 @@ def _update_markdown(dir, old_version, new_version):
                             line = line.replace(f'permalink: ver_{old_version}', f'permalink: ver_{new_version}')
                         elif file == 'index.md' and line.startswith('title: ') and old_version in line:
                             line = line.replace(old_version, new_version)
+                        elif file == 'index.md' and f'href="https://github.com/NBCUOTS/mobile_mps_sdk_android_examples/releases/tag/release-{old_version}':
+                            line = line.replace(old_version, new_version)
                         elif file == 'javadocs.md' and line.startswith('title: ') and old_version in line:
                             line = line.replace(old_version, new_version)
-                        elif file == 'javadocs.md' and line.startswith('<a  href') and old_version in line:
+                        elif file == 'javadocs.md' and f'docs/Android/Ver.{old_version}' in line:
                             line = line.replace(old_version, new_version)
                         sys.stdout.write(line)
 
@@ -131,16 +133,15 @@ def _add_left_menu_entry(old_version, new_version):
     log.info(f'adding verson {new_version} to left navigation menu')
 
     navigation = _ordered_load(open('_data/mps_side_bar.yml', 'r'), yaml.SafeLoader)
-    versions_list = _get_android_verstion_list(navigation)['subsubfolders']
+    versions_list = _get_android_verstion_list(navigation)
     for version_item in versions_list:
         if version_item['title'] == f'Version {old_version}':
             new_version_item = deepcopy(version_item)
             for key, value in new_version_item.items():
                 if key == 'title' and value == f'Version {old_version}':
                     new_version_item[key] = f'Version {new_version}'
-                elif key == 'subsubfolderitems':
-                    for version_sub_item in value:
-                        version_sub_item['jurl'] = version_sub_item['jurl'].replace(f'/ver_{old_version}', f'/ver_{new_version}')
+                elif key == 'subfolderitems':
+                    _update_jurls(value, 'subsub', old_version, new_version)
                         
             versions_list.insert(0, new_version_item)
             break
@@ -152,11 +153,19 @@ def _get_android_verstion_list(nav):
     for folder in nav['folders']:
         if folder['title'] == 'Android':
             for folderitem in folder['folderitems']:
-                for subfolder in folderitem.get('subfolders'):
-                    if subfolder['title'] == 'Versions':
-                        for subfolderitem in subfolder['subfolderitems']:
-                            return subfolderitem
+                return folderitem.get('subfolders')
+
     return None
+
+
+def _update_jurls(items, level, old_version, new_version):
+    for item_with_jurl in items:
+        item_with_jurl['jurl'] = item_with_jurl['jurl'].replace(f'/ver_{old_version}', f'/ver_{new_version}')
+        if f'{level}folders' in item_with_jurl:
+            for sub_item in item_with_jurl[f'{level}folders']:
+                for sub_item_key, sub_item_value in sub_item.items():
+                    if sub_item_key == f'{level}folderitems':
+                        _update_jurls(sub_item_value, f'sub{level}', old_version, new_version)
 
 
 def _ordered_load(stream, Loader=yaml.Loader, object_pairs_hook=OrderedDict):
