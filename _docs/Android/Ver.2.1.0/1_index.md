@@ -54,7 +54,7 @@ On this screen you have the option of choosing names for the app's activity and 
 
 *2 Steps Require to integrate Outbrain SDK with your code:*
 
-1) In the *project’s* ```build.gradle``` file (NOT the app module build.gradle) –> under “all projects” –> “repositories” add the following:
+1) In the **project’s** ```build.gradle``` file (NOT the app module build.gradle) –> under “all projects” –> “repositories” add the following:
 
 ```gradle
 allprojects {
@@ -73,11 +73,9 @@ allprojects {
 
 * Please contact your Account Manager in order to receive a valid password.
 
-2) In the *app module’s* ```build.gradle``` file –> under *dependencies* –> add the line:
+2) In the **app module’s** ```build.gradle``` file –> under **dependencies** –> add the line:
 
-Add the following line to your **dependencies** section in your app's **build.gradle** file:
-
-```
+```gradle
 dependencies {
     ...
     implementation 'com.nbcuni.mps:mps-android:2.1.0'
@@ -85,9 +83,9 @@ dependencies {
 }
 ```
 
-Our SDK has dependencies for Google Play Services to show ads and fot Moat to collect analytics. You can add only those dependencies which are needed by your project.
+Our SDK has dependencies for Google Play Services to show ads and for Moat to collect analytics. You can add only those dependencies which are needed by your project.
 
-```
+```gradle
 dependencies {
     ...
     implementation 'com.moat.analytics.mobile.nbm:moat:2.4.1'
