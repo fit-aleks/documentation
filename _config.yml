@@ -106,14 +106,14 @@ audio_path: audio
 # with translation, change topnav, footer (and sidebar) to use topnav_ja, footer_ja, generic_ja etc. for Japanese, or _de for german. you must have corresponding
 # data files with those _ja or _de file names. Read more in jekyllhowto-localization.html.
 defaults:
-  # -
-  #   scope:
-  #     path: ""
-  #     type: pages
-  #   values:
-  #     layout: default
-  #     topnav: topnav
-  #     footer: footer
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      topnav: topnav
+      footer: footer
   -
     scope:
       path: ""
