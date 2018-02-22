@@ -16,7 +16,7 @@ Click on ‘Install’
 
 {% include image.html file="android/hockeapp_install.png" caption="HockeyApp Install" %}
 
-## TestApp Usage
+### TestApp Usage
 You can use the MPS SDK TestApp to confirm that the SDK is operating correctly. This can be useful for verifying the functionality of your mobile app.
 
 #### Main page

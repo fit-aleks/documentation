@@ -3,9 +3,9 @@ title: "Request banner ad programmatically"
 permalink: ver_2.0.0_3_request_banner_programmatically.html
 sidebar: mps_side_bar
 ---
-In addition to requesting banner ads added via xml, you can also request a banner ad and add it to the view hierarchy programatically.
+One way to show banner ad is to request it and add to the view hierarchy programatically.
 
-Let's use simple **FrameLayout** as a container for a banner ad you wish to load. This **FrameLayout** can be described in xml file like this:
+Let's use simple ```FrameLayout``` as a container for a banner ad you wish to load. This ```FrameLayout``` can be described in xml file like this:
 
 ```xml
 <FrameLayout android:id="@+id/frame"

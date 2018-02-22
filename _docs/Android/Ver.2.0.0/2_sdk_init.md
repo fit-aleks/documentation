@@ -24,7 +24,7 @@ boolean testMode = false;
 final MPS mps = MPS.init(context, mpsUrl, "test-sdk", MPSSDKLogLevel.DEBUG, testMode);
 ```
 
-The last parameter can be one of the @MPSSDKLogLevel.LogLevel and defines the number of logs which will be printed by the SDK
+The penultimate parameter can be one of the ```@MPSSDKLogLevel.LogLevel``` and defines the number of logs which will be printed by the SDK.
 
 ## Request an MPSPage Object
 
