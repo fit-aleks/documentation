@@ -100,11 +100,3 @@ override func viewDidLoad() {
 At this point you should be ready to build and run your application in your simulator. 
 
 Next we will work on requesting banner and interstital ads, and adding them to the view hierarchy.
-
-# Moat
-
-if you need Moat SDK support, please add the appropriate version of moat to the PodFile
-
-```ruby
-    pod "nbcu_mps_ios_sdk/moat",, :git => 'https://github.com/NBCUOTS/mobile_mps_sdk_ios_examples.git', :tag => 'release-2.0.0'
-```
