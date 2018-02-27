@@ -8,3 +8,5 @@ custom_breadcrumb: Getting Started
 ---
 
 Home page for MPS mobile SDK
+
+[Android versions](android_base.html)
