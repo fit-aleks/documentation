@@ -1,4 +1,4 @@
-sidebarTitle: Generic
+
 
 ## See the generic.yml file as an example of the allowed yaml format.
 
@@ -21,7 +21,7 @@ folders:
       output: web
       subfolderitems:
 
-      - title: Release note
+      - title: Release notes
         jurl: /ver_2.1.0_changelog.html
 
       - title: Project Setup
@@ -64,7 +64,7 @@ folders:
       output: web
       subfolderitems:
 
-      - title: Release note
+      - title: Release notes
         jurl: /ver_2.0.0_changelog.html
 
       - title: Project Setup
