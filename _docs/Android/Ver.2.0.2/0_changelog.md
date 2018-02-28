@@ -8,4 +8,5 @@ sidebar: mps_side_bar
 _March 2018_
 
 * splitted SDK
+* Hello worlds
 * SDK is available via Nexus and can be linked to project using Gradle
