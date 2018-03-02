@@ -24,7 +24,7 @@ Set your parameters for the ads you want to view in the TestApp.
 
 Tap the **Make MPS Request** button to initialize the session.
 
-Tap the **Display Banner Ad** button and **Display Interstitial Ad** button to view the ads that match your test parameters.
+Tap the **Display Banner Ad** button or **Display Interstitial Ad** button to view the ads that match your test parameters.
 
 #### Sandbox page
 
