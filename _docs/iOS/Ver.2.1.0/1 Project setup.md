@@ -35,7 +35,7 @@ platform :ios, '8.0'
 target 'YOUR_PROJECT_TARGET' do 
     use_frameworks!
     
-    pod "nbcu_mps_ios_sdk/google_mobile_ads",, :git => 'https://github.com/NBCUOTS/mobile_mps_sdk_ios_examples.git', :tag => 'release-2.0.0'
+    pod "nbcu_mps_ios_sdk/google_mobile_ads", :git => 'https://github.com/NBCUOTS/mobile_mps_sdk_ios_examples.git', :tag => 'release-2.1.0'
 end
 ```
 
