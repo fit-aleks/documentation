@@ -120,6 +120,9 @@ folders:
           - title: SDK Initialization
             jurl: /ios_ver_2.1.0_initialization.html
 
+          - title: Deeplinking
+            jurl: /ios_ver_2.1.0_deeplinking.html
+
           - title: Moat SDK
             jurl: /ios_ver_2.1.0_moat_sdk.html
 
