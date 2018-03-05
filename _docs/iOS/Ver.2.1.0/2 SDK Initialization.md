@@ -15,13 +15,15 @@ import nbcu_mps_ios_sdk
 @import nbcu_mps_ios_sdk;
 ```
 
-You can now create an instance of MPS with the appropriate host URL and site by initializing the library. You can also specify the log level for this instance. Refer to **MPSSDKLogLevel** in the documentation for more details.  
+## Initialization
 
 For **development mode** - we highly recommend having
 ```swift
 options.testMode = true
 ```
 in a code. It helps the MPS team to debug issues.
+
+You can now create an instance of MPS with the appropriate host URL and site by initializing the library. You can also specify the log level for this instance. Refer to **MPSSDKLogLevel** in the documentation for more details.  
 
 Add the following code in your **ViewController.swift** file:
 
