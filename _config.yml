@@ -144,7 +144,7 @@ defaults:
 show_disqus_comments: false
 
 # shortname for configuring Disqus
-disqus_shortname:
+# sdisqus_shortname:
 
 ############# GOOGLE ANALYTICS #############
 
@@ -153,7 +153,7 @@ show_google_analytics: false
 
 # Google Analytics tracking code number (not the whole code snippet -- just UA-123456 or so)
 # To adjust the google analytics code snippet, see the _includes/google_analytics.html code in the gem
-google_analytics_code:
+# google_analytics_code:
 
 ############# Breadcrumb ############
 # you can modify the breadcrumb in _includes/breadcrumb.html
@@ -171,6 +171,8 @@ breadcrumb_home_url: http://yourcompanysite.com
 # leave these settings as is unless you want to use something other than kramdown Markdown
 
 highlighter: rouge
+# library used for syntax highlighting
+
 markdown: kramdown
 kramdown:
  input: GFM
