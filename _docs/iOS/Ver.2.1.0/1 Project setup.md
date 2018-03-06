@@ -70,7 +70,7 @@ If you want to disable system log messages, you can optionally add **OS_ACTIVITY
 {% include image.html file="ios/install_turn_off_notitifcations.png" caption="" %}
 
 
-## 1.5 If case of CocoaPods compilcation issues
+## 1.5 If case of CocoaPods compilation issues
 
 Make sure you are using cocoapods >= "1.3.1".
 

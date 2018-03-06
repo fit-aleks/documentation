@@ -5,7 +5,7 @@ sidebar: mps_side_bar
 ---
 
 MPS iOS SDK for iOS 8 and higher. <br/>
-*Jan 1, 2039* <br/>
+*Mar 1, 2018* <br/>
 
 New features:
 * Moat interation
