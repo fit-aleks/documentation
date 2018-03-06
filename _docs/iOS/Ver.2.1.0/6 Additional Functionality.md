@@ -3,6 +3,9 @@ title: "Additional Functionality"
 permalink: ios_ver_2.1.0_additional_functionality.html
 sidebar: mps_side_bar
 ---
+
+Please check the section ‘Best Practices’ to understand the proper approach to implement this functionality.
+
 ## 1. Get MPS Site Config
 To get MPS Site Config JSON, use
 
