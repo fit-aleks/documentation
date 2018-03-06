@@ -1,5 +1,5 @@
 ---
-title: "Release notes"
+title: "Release Notes"
 permalink: ios_ver_1.1.4_release_notes.html
 sidebar: mps_side_bar
 ---
