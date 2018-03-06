@@ -17,7 +17,7 @@ import nbcu_mps_ios_sdk
 
 You can now create an instance of MPS with the appropriate host URL and site by initializing the library. You can also specify the log level for this instance. Refer to **MPSSDKLogLevel** in the References section for more details.
 
-For **development mode** - we highly recommend having
+For **development mode** - we highly recommend having, and we also recommend to read Best Practices section from Display Ad folder.
 ```swift
 options.testMode = true
 ```
