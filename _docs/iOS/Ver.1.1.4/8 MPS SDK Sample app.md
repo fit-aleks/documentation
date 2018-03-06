@@ -1,5 +1,5 @@
 ---
-title: "MPS SDK Sample App"
+title: "MPS SDK Code Sample"
 permalink: ios_ver_1.1.4_mps_sdk_sample_app.html
 sidebar: mps_side_bar
 ---

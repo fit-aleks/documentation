@@ -27,7 +27,7 @@ folders:
           - {title: Request banner ad with XML, jurl: /ver_1.1.6_4_banner_xml.html}
           - {title: Request interstitial ad, jurl: /ver_1.1.6_5_interstitial.html}
       - {title: MPS SDK Test App, jurl: /ver_1.1.6_6_test_app.html}
-      - {title: MPS SDK Sample App, jurl: /ver_1.1.6_7_sample_app.html}
+      - {title: MPS SDK Code Sample, jurl: /ver_1.1.6_7_sample_app.html}
       - {title: References, jurl: /ver_1.1.6_javadocs.html}
     - title: Version 2.0.2
       output: web
@@ -48,7 +48,7 @@ folders:
           - {title: Request banner ad with XML, jurl: /ver_2.0.2_4_banner_xml.html}
           - {title: Request interstitial ad, jurl: /ver_2.0.2_5_interstitial.html}
       - {title: MPS SDK Test App, jurl: /ver_2.0.2_6_test_app.html}
-      - {title: MPS SDK Sample App, jurl: /ver_2.0.2_7_sample_app.html}
+      - {title: MPS SDK Code Sample, jurl: /ver_2.0.2_7_sample_app.html}
       - {title: References, jurl: /ver_2.0.2_javadocs.html}
     - title: Version 3.2.0
       output: web
@@ -69,7 +69,7 @@ folders:
           - {title: Request banner ad with XML, jurl: /ver_3.2.0_4_banner_xml.html}
           - {title: Request interstitial ad, jurl: /ver_3.2.0_5_interstitial.html}
       - {title: MPS SDK Test App, jurl: /ver_3.2.0_6_test_app.html}
-      - {title: MPS SDK Sample App, jurl: /ver_3.2.0_7_sample_app.html}
+      - {title: MPS SDK Code Sample, jurl: /ver_3.2.0_7_sample_app.html}
       - {title: References, jurl: /ver_3.2.0_javadocs.html}
     - title: Version 2.1.0
       output: web
@@ -90,7 +90,7 @@ folders:
           - {title: Request banner ad with XML, jurl: /ver_2.1.0_4_banner_xml.html}
           - {title: Request interstitial ad, jurl: /ver_2.1.0_5_interstitial.html}
       - {title: MPS SDK Test App, jurl: /ver_2.1.0_6_test_app.html}
-      - {title: MPS SDK Sample App, jurl: /ver_2.1.0_7_sample_app.html}
+      - {title: MPS SDK Code Sample, jurl: /ver_2.1.0_7_sample_app.html}
       - {title: References, jurl: /ver_2.1.0_javadocs.html}
     - title: Version 2.0.0
       output: web
@@ -135,7 +135,7 @@ folders:
           - {title: Requesting Interstitial Ads, jurl: /ios_ver_2.1.0_requesting_interstitial_ads.html}
           - {title: Additional Functionality, jurl: /ios_ver_2.1.0_additional_functionality.html}
       - {title: MPS SDK Test App, jurl: /ios_ver_2.1.0_mps_sdk_test_app.html}
-      - {title: MPS SDK Sample App, jurl: /ios_ver_2.1.0_mps_sdk_sample_app.html}
+      - {title: MPS SDK Code Sample, jurl: /ios_ver_2.1.0_mps_sdk_sample_app.html}
       - {title: References, jurl: /ios_ver_2.1.0_documentation.html, pdf: false}
     - title: Version 2.0.0
       output: web
@@ -152,7 +152,7 @@ folders:
           - {title: Requesting Banner Ads using a Storyboard, jurl: /ios_ver_2.0.0_requesting_banner_ad2.html}
           - {title: Requesting Interstitial Ads, jurl: /ios_ver_2.0.0_requesting_interstitial_ads.html}
           - {title: Additional Functionality, jurl: /ios_ver_2.0.0_additional_functionality.html}
-      - {title: MPS SDK Sample App, jurl: /ios_ver_2.0.0_mps_sdk_sample_app.html}
+      - {title: MPS SDK Code Sample, jurl: /ios_ver_2.0.0_mps_sdk_sample_app.html}
       - {title: References, jurl: /ios_ver_2.0.0_documentation.html, pdf: false}
     - title: Version 1.1.4
       output: web
@@ -169,5 +169,5 @@ folders:
           - {title: Requesting Banner Ads using a Storyboard, jurl: /ios_ver_1.1.4_requesting_banner_ad2.html}
           - {title: Requesting Interstitial Ads, jurl: /ios_ver_1.1.4_requesting_interstitial_ads.html}
           - {title: Additional Functionality, jurl: /ios_ver_1.1.4_additional_functionality.html}
-      - {title: MPS SDK Sample App, jurl: /ios_ver_1.1.4_mps_sdk_sample_app.html}
+      - {title: MPS SDK Code Sample, jurl: /ios_ver_1.1.4_mps_sdk_sample_app.html}
       - {title: References, jurl: /ios_ver_1.1.4_documentation.html, pdf: false}
