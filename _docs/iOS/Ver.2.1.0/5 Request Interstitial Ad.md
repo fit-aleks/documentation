@@ -3,6 +3,8 @@ title: "Requesting Interstitial Ads"
 permalink: ios_ver_2.1.0_requesting_interstitial_ads.html
 sidebar: mps_side_bar
 ---
+Please check the section ‘Best Practices’ to understand the proper approach to implement this functionality.
+
 You can also display interstitial ads to your MPSPage, very similarly to the way you added a banner ad.
 
 You will continue expanding the MPSPage instance that you created earlier. To request an interstitial ad we add the following code to the **ViewController.swift** file.

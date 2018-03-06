@@ -130,11 +130,11 @@ folders:
         - title: Display Ads (Google Mobile Ads SDK)
           output: web
           subsubfolderitems:
-          - {title: Best Practices, jurl: /ios_ver_2.1.0_ad_best_practicies.html}
           - {title: Requesting Banner Ads using a Storyboard, jurl: /ios_ver_2.1.0_requesting_banner_ad2.html}
           - {title: Requesting Banner Ads Programmatically, jurl: /ios_ver_2.1.0_requesting_banner_ad.html}
           - {title: Requesting Interstitial Ads, jurl: /ios_ver_2.1.0_requesting_interstitial_ads.html}
           - {title: Additional Functionality, jurl: /ios_ver_2.1.0_additional_functionality.html}
+          - {title: Best Practices, jurl: /ios_ver_2.1.0_ad_best_practicies.html}
       - {title: MPS SDK Test App, jurl: /ios_ver_2.1.0_mps_sdk_test_app.html}
       - {title: MPS SDK Sample App, jurl: /ios_ver_2.1.0_mps_sdk_sample_app.html}
       - {title: References, jurl: /ios_ver_2.1.0_documentation.html, pdf: false}
