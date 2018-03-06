@@ -15,15 +15,13 @@ import nbcu_mps_ios_sdk
 @import nbcu_mps_ios_sdk;
 ```
 
-## Initialization
+You can now create an instance of MPS with the appropriate host URL and site by initializing the library. You can also specify the log level for this instance. Refer to **MPSSDKLogLevel** in the References section for more details.
 
 For **development mode** - we highly recommend having
 ```swift
 options.testMode = true
 ```
 in a code. It helps the MPS team to debug issues.
-
-You can now create an instance of MPS with the appropriate host URL and site by initializing the library. You can also specify the log level for this instance. Refer to **MPSSDKLogLevel** in the documentation for more details.  
 
 Add the following code in your **ViewController.swift** file:
 
@@ -34,9 +32,8 @@ override func viewDidLoad() {
     let url = URL(string: "https://mps.nbcuni.com")!
     let site = "test-sdk"
     
-    let opt = MPSOptions()
+    let opt = MPSOptions(testMode: false)
     opt.logLevel = .debug
-    options.testMode = true
     mps = MPS(url: url, site: site, options: opt)
 }
 ```
@@ -53,7 +50,7 @@ Or, add this code to your **ViewController.m** file,
     NSURL *url = [NSURL URLWithString:@"https://mps.nbcuni.com"];
     NSString *site = @"test-sdk";
     
-    MPSOptions *opts = [[MPSOptions alloc] init];
+    MPSOptions *opts = [[MPSOptions alloc] initWithTestMode:false];
     opts.logLevel = [MPSSDKLogLevel debug];
     mps = [[MPS alloc] initWithUrl: url site: site options:opts];
 }
@@ -75,7 +72,9 @@ override func viewDidLoad() {
     super.viewDidLoad()
     let url = URL(string: "https://mps.nbcuni.com")!
     let site = "test-sdk"
-    mps = MPS(url: url, site: site)
+
+    let opt = MPSOptions(testMode: false)
+    mps = MPS(url: url, site: site, options: opt)
 
     let params = MPSPageParameters(path: "TEST")
     page = mps.requestPageObject(params: param, rootViewController: self)
