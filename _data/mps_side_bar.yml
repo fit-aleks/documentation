@@ -71,6 +71,27 @@ folders:
       - {title: MPS SDK Test App, jurl: /ver_3.2.0_6_test_app.html}
       - {title: MPS SDK Code Sample, jurl: /ver_3.2.0_7_sample_app.html}
       - {title: References, jurl: /ver_3.2.0_javadocs.html}
+    - title: Version 2.1.1
+      output: web
+      subfolderitems:
+      - {title: Release notes, jurl: /ver_2.1.1_changelog.html}
+      - title: Project Setup
+        jurl: /ver_2.1.1_index.html
+        subsubfolders:
+        - title: SDK Initialization
+          output: web
+          subsubfolderitems:
+          - {title: SDK Initialization, jurl: /ver_2.1.1_2_sdk_init.html}
+          - {title: Moat SDK, jurl: /ver_2.1.1_2_2_moat_sdk.html}
+        - title: Display Ads
+          output: web
+          subsubfolderitems:
+          - {title: Request banner ad programmatically, jurl: /ver_2.1.1_3_request_banner_programmatically.html}
+          - {title: Request banner ad with XML, jurl: /ver_2.1.1_4_banner_xml.html}
+          - {title: Request interstitial ad, jurl: /ver_2.1.1_5_interstitial.html}
+      - {title: MPS SDK Test App, jurl: /ver_2.1.1_6_test_app.html}
+      - {title: MPS SDK Sample App, jurl: /ver_2.1.1_7_sample_app.html}
+      - {title: References, jurl: /ver_2.1.1_javadocs.html}
     - title: Version 2.1.0
       output: web
       subfolderitems:
@@ -92,6 +113,22 @@ folders:
       - {title: MPS SDK Test App, jurl: /ver_2.1.0_6_test_app.html}
       - {title: MPS SDK Code Sample, jurl: /ver_2.1.0_7_sample_app.html}
       - {title: References, jurl: /ver_2.1.0_javadocs.html}
+    - title: Version 2.0.1
+      output: web
+      subfolderitems:
+      - {title: Release notes, jurl: /ver_2.0.1_changelog.html}
+      - {title: Project Setup, jurl: /ver_2.0.1_index.html}
+      - title: Initiate the SDK
+        jurl: /ver_2.0.1_2_sdk_init.html
+        subsubfolders:
+        - title: Display Ads
+          output: web
+          subsubfolderitems:
+          - {title: Request banner ad programmatically, jurl: /ver_2.0.1_3_request_banner_programmatically.html}
+          - {title: Request banner ad with XML, jurl: /ver_2.0.1_4_banner_xml.html}
+          - {title: Request interstitial ad, jurl: /ver_2.0.1_5_interstitial.html}
+      - {title: MPS SDK Test App, jurl: /ver_2.0.1_6_test_app.html}
+      - {title: References, jurl: /ver_2.0.1_javadocs.html}
     - title: Version 2.0.0
       output: web
       subfolderitems:
@@ -130,10 +167,11 @@ folders:
         - title: Display Ads (Google Mobile Ads SDK)
           output: web
           subsubfolderitems:
-          - {title: Requesting Banner Ads Programmatically, jurl: /ios_ver_2.1.0_requesting_banner_ad.html}
           - {title: Requesting Banner Ads using a Storyboard, jurl: /ios_ver_2.1.0_requesting_banner_ad2.html}
+          - {title: Requesting Banner Ads Programmatically, jurl: /ios_ver_2.1.0_requesting_banner_ad.html}
           - {title: Requesting Interstitial Ads, jurl: /ios_ver_2.1.0_requesting_interstitial_ads.html}
           - {title: Additional Functionality, jurl: /ios_ver_2.1.0_additional_functionality.html}
+          - {title: Best Practices, jurl: /ios_ver_2.1.0_ad_best_practicies.html}
       - {title: MPS SDK Test App, jurl: /ios_ver_2.1.0_mps_sdk_test_app.html}
       - {title: MPS SDK Code Sample, jurl: /ios_ver_2.1.0_mps_sdk_sample_app.html}
       - {title: References, jurl: /ios_ver_2.1.0_documentation.html, pdf: false}
